@@ -1,0 +1,2428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0152B6F81310A3A77F5487CDF419EA61 /* MDSnackbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BD516E61999AEEBDBA3FBEBE10FFBF /* MDSnackbar.m */; };
+		02871839F6E8C933E88346D29DF64BB8 /* arrow_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 419D683DE3682C7B5555B0A02A655A6D /* arrow_down@3x.png */; };
+		03A95EB83E0A8E10F7E0B4DB551D5200 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBFAC454B6784F01BB973AA013812C0 /* DatePickerDialog.swift */; };
+		03F76598DE06B8D6C1B290A2A98A5363 /* MDCalendarDateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 236709DE70363343DC06934F375E2749 /* MDCalendarDateHeader.m */; };
+		065A153C62BA04F94FDED2EA4032D5BF /* MDCalendarYearSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = C1109A36BD5FF25B2AAA4F1D51ACE97C /* MDCalendarYearSelector.m */; };
+		08579DA8A94D70561C84AEFCB9054565 /* MDSliderTickMarksView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F74C2E82D8EB2ECC8E3F78CF46446FD /* MDSliderTickMarksView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A1282780E0D07ABCD6FA87A100C8B36 /* BSImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E4F28696B0FEA3D0DC404B241ED6B4 /* BSImagePicker-dummy.m */; };
+		0C20AAB422CC2202A08E2333EC8A3A70 /* MDDeviceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F34957ADE0434B49F3DE7F8E21477E09 /* MDDeviceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DA690C67693C54A7EE250DFA5725A45 /* add_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588BF8A8563DE3C42F2B9A9A16294BF8 /* add_photo@2x.png */; };
+		10C89D779068857ECB8733DB74368EA4 /* MDSuggestPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CB1EAF40A041A457CF89239BBE1AE2 /* MDSuggestPopupView.m */; };
+		135EB128936A1909CF73AEFF05727C3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC27617854A5F37C259214C73C8A2B1 /* Foundation.framework */; };
+		13C868F1049153CB51A9CAF4050FD8D5 /* UIImageViewModeScaleAspect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2952325335C1B02D825475FF44D923D /* UIImageViewModeScaleAspect-dummy.m */; };
+		13F5A7A428C62CBBEAD7A6D96763FCF7 /* MDProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 732FBBE2F515FD2710F493CF84FE1DC7 /* MDProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15D641E1E3EB072CC3CFF9A74118685D /* MDTimePickerDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5106780A96C469242F044E7C524B22AF /* MDTimePickerDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		170E069AD18588E3C764785AE000DF9F /* NSDate+MDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB47C4E8662CAA76FF625F43174D48B4 /* NSDate+MDExtension.m */; };
+		1817B640D036C9CEF05F6EB2BC9B5695 /* RIGImageGalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D626C67A9C8D2984DB15BE538EBB4D18 /* RIGImageGalleryItem.swift */; };
+		1A962759948D79650092DF3B2009255D /* BSImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6936F447F3E7CF5B652014B10DBD7AE7 /* BSImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BD7EFC4D9CF43B9023A35AE7F1C7F38 /* MDTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 3435F4C9E730D09DA4DED0773793037F /* MDTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DADD8AE5841ACA2668D91809BB866B4 /* UIFontHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA59FAAABF45BF2AD46FBECB39559D /* UIFontHelper.m */; };
+		2147605F2D807CF69D28D12FF25E070C /* NSCalendarHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8BF1EEC83BC9AEFBE47A9A3591D528 /* NSCalendarHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25C9DA3732DCDC1F06F6E062072F0A6E /* MDBubbleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74796B4BF894B18765F852B1EF498985 /* MDBubbleLabel.m */; };
+		26C2716066654BCB8474E6F82997D5D7 /* left-arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F90807D1FEF99219DD3ED570E8F329E2 /* left-arrow@3x.png */; };
+		2932661CC22FF8371D40DC118C1119CC /* right-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B05B668884673AB3D4E0F3AC63203E2 /* right-arrow@2x.png */; };
+		29C4954B793E4428DB1FB25D5D4AF500 /* MDSnackbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 001C38FB88FA11DE5B6A724B86C4F540 /* MDSnackbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A1660DDC6EABDA1C14FE6A1431B92D9 /* PhotoCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EECAB7F16AF3695FF33A96377514F02 /* PhotoCollectionViewDataSource.swift */; };
+		2C4BF21BEBD90B3A1A212405FAB96F21 /* MDCalendarYearSelectorViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9020CDECDD3F1614CD304B850B1B1A6C /* MDCalendarYearSelectorViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CC2157ADAE9E3BDFEE580B1CDFBDB0E /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF67237A9538960F8E1DA3E1547D30D /* PhotoCell.swift */; };
+		2D677597604E11C201E1EC5BF65B5CF9 /* MDTimePickerDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A32B5DEF7F2705F6D819BCEF821D9938 /* MDTimePickerDialog.m */; };
+		2D98E24C0911224CA30EE95E0BF0D9D6 /* add_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = EFAA6B0DEC5CAE056F1A18D82ADFD4CA /* add_photo.png */; };
+		2E5B73090C61A67BA8BB22EC21139033 /* MDCalendarYearSelectorViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D35D9B5C1E3DFD4B6E1A7184F9015058 /* MDCalendarYearSelectorViewCell.m */; };
+		2F57A8165DA62FD547CCADB558ED52C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A975C1834C0291266F8A345F0DAE86A /* UIKit.framework */; };
+		2FD3E8AC8D91F0BD19F9511E54D0B5E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF0DBB49A936EC22B56F9819EADFB1D /* CoreGraphics.framework */; };
+		311F59636DD45853A3E197E5358DC6E5 /* DTCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD7912536782A4C79ECE29BA9574B8A /* DTCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3164437F23050F862FC7D920B31E6FFB /* left-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 416DBEE43A5CFBF25C37BB7277EC651A /* left-arrow@2x.png */; };
+		32C1B0CF03D8C8A723E182F5022EF448 /* RIGImageGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF414813D636FF512FBB0B85B9E544E /* RIGImageGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		343F39C6B0B0A37F6363B4CE315A655E /* MDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A49AB90D65F96056FC75081BED74DA3 /* MDTableViewCell.m */; };
+		34B8CC4E474A7965733206E3D8A0713F /* MDCircularProgressLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 122E89B52B53C06A3A6B83900690CDE9 /* MDCircularProgressLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38EB404E94569A7D1233E8827480F05A /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B16FD06FB176BAD15C082C6FFC7A1A /* ControlsView.swift */; };
+		3AAFC1736E91CA42A509F3367D843F24 /* ComposedCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3307F46320D4CE1CA00D3AA557685503 /* ComposedCollectionViewDataSource.swift */; };
+		3AB7204CFE6B47ADB6180BF26AC41FBD /* MDLinearProgressLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F38F563E6F1FE2E0AB868DE0E47B23D7 /* MDLinearProgressLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B0A1AB9620BCFF668037F26DC68014A /* AlbumTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E420F8603221B4AAC91292B0BEF8E74 /* AlbumTableViewDataSource.swift */; };
+		3B2A4203AD459592CB0B60CA60DD0DC3 /* NSDate+MDExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1803CE77C1C19D22D80D37B10B342DBD /* NSDate+MDExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BF7D0B8980754182E4B7649E33E7738 /* MDRippleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 880A36362AA2E898168AAE1F3183C5E2 /* MDRippleLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CCA77B37EA796A99C5BAC145095236E /* UIView+MDExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DA739F30CAD9E44CB5AE7C421C96C03F /* UIView+MDExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40D0EB17A744B8926B606742012B25FF /* MDSliderIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 859C7068DA572866DA5C48194F81157D /* MDSliderIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41005F8643A25C1DB2AA8B39801EDF97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC27617854A5F37C259214C73C8A2B1 /* Foundation.framework */; };
+		43A9A605A57DF27B8E9EDA1320158117 /* MDSuggestPopupView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5452E456C6E4C98BFE7E58D1CD700B65 /* MDSuggestPopupView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45AF6879044A07DBA8F3E71A9ED62B26 /* UIViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A4A723046E1C5F2A4B460EDC804EDB /* UIViewHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F7B10A88E52F141635871D5A42CFD4 /* MDDatePickerDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 29984C82A19A1DD00DB88172A9E189BA /* MDDatePickerDialog.m */; };
+		490B1D27B72D90E0DFD18AA1589588C4 /* UIImageViewModeScaleAspect.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F4FBC218FD03E47DA515D74BDC26CD /* UIImageViewModeScaleAspect.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4975341746390700C69BBF91900549D0 /* CameraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F43D747DD1230E405B4B0B2448A1B78 /* CameraCell.swift */; };
+		49E6AFCD3B0C82B783BA19B6B0FE1FB8 /* MDBubbleLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 63700CF25417AB09C8E126A454167B95 /* MDBubbleLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49F968C4A1F2ACDC36A2F36F1935EC81 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB469AFD7835CB932CFD8C2CF596EF1F /* Photos.framework */; };
+		4B3290276C4F6FB218CFFD6C621AB647 /* MDTouchGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F5F2DDC3C42680F219FC0705671D78 /* MDTouchGestureRecognizer.m */; };
+		4CCF05B0CA96B6E3017602F007941662 /* JModalController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB85789A63CB42342AC150792E114CB9 /* JModalController-dummy.m */; };
+		4E52553DBA400B7223326EE1FF0B33DA /* MDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF36283F5CDD838A8B1D3E2C6C938E8 /* MDTabBarViewController.m */; };
+		4ED91B0FE74095B19377CFCD476B163C /* MDDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DF130145E7FCFF28F8652F5A4FB77B /* MDDatePicker.m */; };
+		4F8F71C35AB41EA960F43BA8C542FD48 /* MDProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BDFD4DD5FFB917713F498747ECA1D9 /* MDProgress.m */; };
+		4FA6EE68A53FCF5FA7FF142754B3983B /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6D4E4A1E44FE63B14278627997A68 /* PhotosViewController.swift */; };
+		53EFD571726F2ACD75E26B959BE93611 /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D7968BECEB7443423BFBC51876C6017F /* left-arrow.png */; };
+		5553DE0CA2383E39DC85F88702CA64FC /* MDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C5A4403ECBFDA050B883280240D2F5 /* MDButton.m */; };
+		5649814E47404A77F87DACA903F49B1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A975C1834C0291266F8A345F0DAE86A /* UIKit.framework */; };
+		58CD7DC550022AA5A7EF920FB31B3653 /* MaterialControls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F53CE7B6D07BEBEECCA9C0DE26E343 /* MaterialControls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59454BA76E646D86D2082B1D17312AF4 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = F935B1B16BA4D0FDA35A5B43D5B51B88 /* Info.plist */; };
+		5B72A38409705768E447EE38E85A6BE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC27617854A5F37C259214C73C8A2B1 /* Foundation.framework */; };
+		5E10EF6D6F4798287E8251B65200F0D0 /* MaterialControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F0B0D54BFBD200F7F887DFE33EEA6D /* MaterialControls-dummy.m */; };
+		5FA658883BB771F369A7E3C578495ECB /* UIImageViewModeScaleAspect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FE35C06E0C93FA2675717230F12968 /* UIImageViewModeScaleAspect.framework */; };
+		6058C47E234C1B9BB207347F578E4559 /* MDSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 499EDDBC5E91CCAFE08D838E879A5AC4 /* MDSlider.m */; };
+		61A7C859D869D71CBCA47E2392D55C77 /* MDSuggestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5A2B36B0B73A0B5420F179D05985F /* MDSuggestTableView.m */; };
+		643DE007071174E49CC4C6F3F7BE12F0 /* RIGAutoCenteringScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4316D53270D6FD711982B1F460F91BD /* RIGAutoCenteringScrollView.swift */; };
+		64A8AD7C215A6FCF0F617929A33FAE1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC27617854A5F37C259214C73C8A2B1 /* Foundation.framework */; };
+		656C3E63F49D658837DEC43B4B1C2C17 /* MDCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C136F183CC3F3EB490AD56DD3A1BE6 /* MDCalendar.m */; };
+		6633E1A2F1F14225496F066E25A4C943 /* UIFontHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7200B8662041EBD67FE73EE2E6F6400D /* UIFontHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6784E61CF2EA33B9634E673CB2A24CA2 /* UIButton+NoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428FD3C6A11D28BCC79DA9C4F24DAC3 /* UIButton+NoAnimation.swift */; };
+		6A0126FCC4FC77B53766E2C6528D77B4 /* MDButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 212D5D8C50402B295C57499C4DE6ADD1 /* MDButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CA4F0EA8E0F90324991EA74E97052CE /* MDDatePickerDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = B34C27ABD9CD053843EEDC14F367C8A4 /* MDDatePickerDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E12441E8F779279B366666DA6370321 /* AutoResizeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25FCDF84A9E82052AB9813F9DD8ECF8 /* AutoResizeTextView.m */; };
+		6EC1B07BAD202E3B04D672EA392CD6C9 /* BSImagePickerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222868590C49D3071E9F4D4764135FBE /* BSImagePickerSettings.swift */; };
+		6F4A7A0ACBF412CD886AAE133C24830E /* UIColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 820D757DD27400F3FFF9A4F62304ADBC /* UIColorHelper.m */; };
+		6FD578A66BDE57187324FB999DBAA994 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A609784F05CB1F4C125460D6D622B6 /* AlbumCell.swift */; };
+		708403E309FF5CA6CB40BB2EB8A8D69F /* RIGImageGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B8C1090748A9A425EB15C111BB534 /* RIGImageGallery-dummy.m */; };
+		71F7C15D4D16511264A2758F1FD6B8D4 /* ZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028CBC951D5F6B6886E78BF81617EF85 /* ZoomAnimator.swift */; };
+		71F9356908D7034B6B0DB7794569CB8E /* add_photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEC25D72FE01CAD0AA068C1499474A4 /* add_photo@3x.png */; };
+		723917B3AA6A1D94E127BD8F057C6DEB /* MDTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0759BC6803D4349B87C05975C1974271 /* MDTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		775370CE338AFE235C8F0A888DFAE0C0 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16A43815002464B94D255CEF1A2E55B /* AlbumsViewController.swift */; };
+		79EB136531FCFB42D544EBE28878B78D /* MDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FEC57641DD67D485884935D19D6D1D /* MDCollectionViewCell.m */; };
+		7BB056BB4AD65CB66380CBDD52CB0FD3 /* DatePickerDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6AB848344454F8E8451DDABD404E3E /* DatePickerDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CEFA3AD45C90E355EE639AF7BA52488 /* BSImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D00B0A92C4099FEC357989620E9B96FA /* BSImagePicker.bundle */; };
+		81342D8EDD8F14A36444FAABBCD969C2 /* MDSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F7BE609F152F2BF449B59D2E29E246 /* MDSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82F67AB1417B4CEBF6D3F2C3A5733FCC /* AlbumTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3178E6467926BF9E6EF502199C28F2D /* AlbumTitleView.xib */; };
+		84EE6FBC9431B4B1B127726F2FBDE118 /* AutoResizeTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B4A7933417E6B3D3D060D1F49B7F86 /* AutoResizeTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86049A486E4925CB47B14041E218F75F /* MDCalendarHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 888452DCF27EE238AA0A71497488B2AF /* MDCalendarHeader.m */; };
+		867BFFCC2078B7E7F06400C9A34FF6B2 /* NSCalendarHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 174D122B31A9082FCA81622301F07BA9 /* NSCalendarHelper.m */; };
+		87D3F6D331DEA2A14FD7A83CCE0F547F /* MDTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 234900C0F1399D60B45093A8B121AC76 /* MDTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A78DAFDC5C25A167A690E24026D16D1 /* MDSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 589A777B103FBD61E1472B593BC89DC8 /* MDSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B07BF9B787DE529444DEEE273513417 /* Pods-SWC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C82FC5A738CE75400516B3DF2C4495 /* Pods-SWC-dummy.m */; };
+		8BF2708B6F6FE8CDC0EFCDBAF84656EA /* MDCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 800C5DF50FCAE60C59F0377FF496217B /* MDCalendarCell.m */; };
+		8C1292269171ADD8C827B205823D0DD3 /* UIViewController+BSImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D767212D4AACDA1527EE5F981449280 /* UIViewController+BSImagePicker.swift */; };
+		8C6B130BF7B2FEB493350BBCBABFFD79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC27617854A5F37C259214C73C8A2B1 /* Foundation.framework */; };
+		8EFF4D1B8041830CAC353B87E28A7644 /* MDSliderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9892C0C0CF347DD984FCBF68130976 /* MDSliderThumbView.m */; };
+		907D779765F9E18C2D4B924B80D9501A /* GridCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B62147F53CC81F70572AFABD93B055 /* GridCollectionViewLayout.swift */; };
+		9095B7AF5DD0A8A2EF8D17EE71CA3542 /* BSGridCollectionViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455703DE578ECC799EB90D510BB2E22A /* BSGridCollectionViewLayout.framework */; };
+		95D9E074B4BD7A0B3A3C3EA8BF30D8E9 /* UIImageViewModeScaleAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = 99776264025AE9E30B2934E00671ED59 /* UIImageViewModeScaleAspect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96FDA1E54E4EE7B84297EC94A018148F /* MDCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2A845682CA9A9384FDF274CFA427CC /* MDCalendarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96FF611D90DB49596AE9CDBAB9027019 /* MDMathHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A915751216C99578A7E114C9652C477A /* MDMathHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9824A5AE7054BB4C7254CF7DEDB23F08 /* MDMathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFF4101359C6B125224DA12A4753132 /* MDMathHelper.m */; };
+		986BD74F2651AB90996B5A8312322D82 /* MDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 80914C07A10C6C35B7B06639F0F5129F /* MDTabBar.m */; };
+		98DA5B1566A312A2681EF68F4C9FD68C /* MDDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FED7E8046DEC093F0E712F488BA77C /* MDDeviceHelper.m */; };
+		99E15F2295ED12283D3686E2EAB6D91B /* MDToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1167D0735FD333FBB92D87120D9A97 /* MDToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF444DE585D64E4B755F2CB4EB1E0EF /* UIImageViewModeScaleAspect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 819C979C3F6209BAD7743D4036275940 /* UIImageViewModeScaleAspect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BB21DF77DD3F92AB4969629091529B1 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A155165177F1D2ED85F0A2D444ED14D /* PreviewViewController.swift */; };
+		9C8B6392B340386A6A5EA9DD72C611F3 /* MaterialControls.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AF7A40E231FC04224535D0006851B6 /* MaterialControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0510A2CD58838D4DC9372E549C5CF4E /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 447902B87F06FEF28A55A7AFD6B9E83B /* PhotoCell.xib */; };
+		A1072ED85CF7DC6B3A3ACA1178C331E1 /* MDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F70417B418D289764E58A1E0630E1D7 /* MDTextField.m */; };
+		A158BE3D743BA5BB1DD13E1B99FE1D7D /* MDCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 05FB11DA555EA3B4FFF6F657D491DC31 /* MDCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2740BEDD717C750A74874E4097373A4 /* MDSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E10156BADFAD27618B529C0D90CEF /* MDSwitch.m */; };
+		A502D33742F7CD7B7998B60756EDB9DB /* RIGImageGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EA68B7020B6693238EC66E804EC6CD /* RIGImageGalleryViewController.swift */; };
+		A7165D89EB94E25DD4D9DFC19551ADC6 /* AlbumTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A905380DAAC561B1068B03E773BB566 /* AlbumTitleView.swift */; };
+		A95154632C3230C8B210F3C4382EDC2F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6848625CF990171D33D0071129DB8B /* Settings.swift */; };
+		AC2965CE61F2E4E52BFC41CC716FFE12 /* MDTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D283071A0DE291230454EE6869619C4 /* MDTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1C5FF010AB289E33D3F74D3200EA61A /* MDLinearProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83878F85FE25E8CECA931E4A7616D548 /* MDLinearProgressLayer.m */; };
+		B601222C051BA29A109FE1EADE615A26 /* RIGImageGallery.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BFC658DCF198F66B9ADDDE8621927D /* RIGImageGallery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9816B44607F0A0B2CEA229E64C86E19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC27617854A5F37C259214C73C8A2B1 /* Foundation.framework */; };
+		B9DF9BE57FE025EFC5C7321739BFC5F8 /* RIGSingleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3972152A8C9ED7A09F949DFC3A920CA3 /* RIGSingleImageViewController.swift */; };
+		BD583414948ECCEDB5939C3E0AB16C31 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEAD9A9FB2C2FEB7FFFE08B2D9C625 /* DateExtension.swift */; };
+		C0E69C4DF345D2B94E56F0E248774F19 /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F44EF94AE2D71B284BC48A1542CF0A5 /* right-arrow.png */; };
+		C12F43949D989AD151DFAE3929CA461C /* NSDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAEC7684E168D759B058F6B78DB2A34 /* NSDateHelper.m */; };
+		C42820B86DC2EDFCB7456DE7151B2E24 /* MDTouchGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = E6505BD8161A7C63BC808C7557A3A531 /* MDTouchGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5F4CCC20D3C85923F7FB740DEE38001 /* arrow_down@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD2ABABB8FC00D7C0FB6E116F30FC8D /* arrow_down@1x.png */; };
+		C69188F987AA2D27E4C9BED5B4E1358E /* UIColorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FE84C2CBC25327A7F0D189C18D39BB04 /* UIColorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD79C174680EC70E7DAA8DA65EFD41B /* MDRippleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC8333FF0BBEDB96B626212ABAA97A5 /* MDRippleLayer.m */; };
+		CC4F339432855C59191CD989566F1014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC27617854A5F37C259214C73C8A2B1 /* Foundation.framework */; };
+		CDEFC28A9D19ECF1FF9EE3DF7677C2A1 /* DaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503FD55067DA320EC930BD2BE0C30572 /* DaysView.swift */; };
+		CE9FC3567D34EFD442D54DCF91DD3523 /* Albums.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351AD7A13D4AAE4B42B0E7E0C04D5402 /* Albums.storyboard */; };
+		D0306603DBE11AD7A85617F025D05EE5 /* MDSuggestTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = D56F1005539642EC91A0A5A202779C00 /* MDSuggestTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D27DC9348BF05F76F5505DADA9C14ABF /* right-arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FAA7A6E7AE3912D047F78E5E74CD77 /* right-arrow@3x.png */; };
+		D33D45536AB83387B766CA86F11B7DE8 /* MDCalendarYearSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD814670E8B86EE7C69D8C103256272 /* MDCalendarYearSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3BD6D23D177130221815340C04A8A55 /* CameraCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD494EA085BA76A5477F6A63EDB6C5A /* CameraCollectionViewDataSource.swift */; };
+		D40C7B064B88FB9FE67E950089DBEE15 /* MDSliderTickMarksView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A12825C035AEF221CC35DB2394A563 /* MDSliderTickMarksView.m */; };
+		D9153ABBDA504356D83AF4CDD5BD7821 /* MDProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4DAB0EA166075694F9E338A4EE07F0 /* MDProgressLayer.m */; };
+		D9DFECEDBCCCE14D33EAF9DFFB58796D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC27617854A5F37C259214C73C8A2B1 /* Foundation.framework */; };
+		DA6E750D98236F3623DCDCF2B1632CE8 /* MDSliderThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8685F300112A3AD21A01BDDB5685DB01 /* MDSliderThumbView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC0F41F8B952AE2491C2B5F38ACE6E1C /* CameraCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 604FA2D45BB1C04961984ECF745EE1FD /* CameraCell.xib */; };
+		DC30493854675B356F3F40CF7A351B92 /* UIView+MDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAAF6DE7E91CB6AF671C9D0DE5EFE60 /* UIView+MDExtension.m */; };
+		DC561FB4F119D2F53DCAEF0D079C28F2 /* JModalController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCBDA73591D8C05FEC75444E77BD6B28 /* JModalController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD301E4CAE89F265CFA7DAE01308695C /* MDToast.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4EF2D17AD6DD15D4CB155CB9CE6A7 /* MDToast.m */; };
+		DE45DAEE660ADE5C146EE7CF7259F35A /* DatePickerDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4187327D618A0E9E1A2E57E1082AED8E /* DatePickerDialog-dummy.m */; };
+		E07706055CC9C396BF79E76EDC618F12 /* MDCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = F099905152D7C3F9F0C5DB6814586683 /* MDCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A8F79B77CB20AD43FD33D8DF3E7A1B /* BSGridCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 533A99C97D82D77888A540FFBC7A6E61 /* BSGridCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E230EC0E9787F8E0586FC2AEA21FD9DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EC27617854A5F37C259214C73C8A2B1 /* Foundation.framework */; };
+		E2A9777E1BF6A409727A953B24EB3BFD /* Pods-SWC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 535E84C97744F5F791194C7981E4B248 /* Pods-SWC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5A02CF937E3DEB91E0C16D7F983D1D8 /* MDSliderIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 949935A3AC37EF68ACE7F0D4C82AB7FA /* MDSliderIcon.m */; };
+		E62775DABC5481BE79961043BB906BF6 /* MDCalendarHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C581D3CC5835D5974CD5BA22A24FBD /* MDCalendarHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E642091864B67D04FE0F1ADA67853A51 /* MDConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CEAA562AA801B12DAF0DA034B9402B /* MDConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74A3A1E348564001FCF3DF84EC5275F /* NSIndexSet+NSIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0190C32E942A0D97F6A3B04B901CB4 /* NSIndexSet+NSIndexPath.swift */; };
+		E7F2E0FE65BA8F6F2C9F4202E7DB811D /* DTCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E43C18BD9E9CA74EEDCDD7CDF4375D0 /* DTCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9303D2450ED3734C7AACFCE7B7BC3D9 /* MDCircularProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A4475D6E69EC9CA546F47F758C01CB /* MDCircularProgressLayer.m */; };
+		EA64E5A0DF1C771270636E7AD666C9CC /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA15A64F0D333F456F6EE575FA02730C /* SelectionView.swift */; };
+		EB7E8763C74676783A4615CE9AF48DE4 /* MDDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 398990BF5E4E71AF7C535A5C08961331 /* MDDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBB9EEF4D17B1394B91905B94BBE4F99 /* BSGridCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B649A25E396F83A2F5007C0F3B382 /* BSGridCollectionViewLayout-dummy.m */; };
+		ECE53E18D06CFBBC8FD3AFD0EC5CC9AB /* NSDateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E737333D1ADE2A6EACADA305CEEAC /* NSDateHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED09DC482EBD5285E433C9866DF0B367 /* MDCalendarDateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 496342869BE7E5BF3E3017C1FCC1BCF5 /* MDCalendarDateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE2AE2DA6DADBBBD562D1D080FB30FE1 /* MaterialControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F575DECE0BBC8677FE440C38A90B852 /* MaterialControls.m */; };
+		EF42BB15227FF146326741A74010B003 /* MDProgressLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 923B6B249D268B21E190DA278D8DCA27 /* MDProgressLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3B3729A211715A9208DBA6E9D1882E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A975C1834C0291266F8A345F0DAE86A /* UIKit.framework */; };
+		F5C1E73F08EF3DF5573CD0927C8100D0 /* DTCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D70ED40B4EF0E502C2E955779A11844B /* DTCalendar-dummy.m */; };
+		F5D7D58C0D2A42FF3F30E3FC98E2F545 /* arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4468382AED1D833BD1D98EF2C457C71C /* arrow_down@2x.png */; };
+		F5E9BCECC243FD607EE32CA19EBDB8AE /* JModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9489FEA234CEF7043E122577341C8FB7 /* JModalController.swift */; };
+		F781C4194A53B2D2B17276A6F058F3BF /* DTCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9C2E45F6039CED2B8CE782364580D /* DTCalendar.swift */; };
+		F8511396D12AB8F4CC2D58465EFA60EC /* BSImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F7A31089E327F132E9AA8CE9AFE0C /* BSImagePickerViewController.swift */; };
+		FC3B0F31D1E99E79575F88A7A11BB4BB /* WeekdaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B215F71E2DAB2DCB272F74CD348E0F2 /* WeekdaysView.swift */; };
+		FFC4ACA4C97304FA459BB21B17B52E86 /* UIViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FCD2B5B2E0D76CBF732DBD1D8BD910 /* UIViewHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18982E6D109A4D4A6BED738F4C330AD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3358FD278239CD04C72D0B18351BD8AE;
+			remoteInfo = DTCalendar;
+		};
+		232DFD077F57209155E49B20A6B7377E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15ADBD1BCE86903F0EDBD3382A6770F7;
+			remoteInfo = RIGImageGallery;
+		};
+		282D311777F5127E556A589AF38D4C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6930D5D0C3440426432777093903702D;
+			remoteInfo = BSGridCollectionViewLayout;
+		};
+		351AE42058978A4A5030C14CB87A51EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699E789DB4104C01604BD6DC24F58DDA;
+			remoteInfo = UIImageViewModeScaleAspect;
+		};
+		6EDFE081004BFFA266476928C6E4AE54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D3FA9D3F257B941DF0EDF0A92B37F7;
+			remoteInfo = "BSImagePicker-BSImagePicker";
+		};
+		7AD974E68CAD262961E350C219E4B921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2D0D3615BE031DB2E3931A81E07930;
+			remoteInfo = JModalController;
+		};
+		8A156054738B265D70D7386BFEB29529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699E789DB4104C01604BD6DC24F58DDA;
+			remoteInfo = UIImageViewModeScaleAspect;
+		};
+		A0B4A4E503C974687294D3440626A73D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A43395A1696E283CA24A4012C4E0CC1;
+			remoteInfo = MaterialControls;
+		};
+		B441EF7D0CB3722D9735493088A177B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1462A800C6623ADC2221545332D41D29;
+			remoteInfo = BSImagePicker;
+		};
+		C7355E585F2020864A239CBEEA3624A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6930D5D0C3440426432777093903702D;
+			remoteInfo = BSGridCollectionViewLayout;
+		};
+		DABAD5F28E6ABAB529F82E00EB3C473C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184A1650DC0B648BD756068E60BF2C59;
+			remoteInfo = DatePickerDialog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001C38FB88FA11DE5B6A724B86C4F540 /* MDSnackbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDSnackbar.h; path = MaterialControls/MaterialControls/MDSnackbar.h; sourceTree = "<group>"; };
+		028CBC951D5F6B6886E78BF81617EF85 /* ZoomAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomAnimator.swift; path = Pod/Classes/Controller/ZoomAnimator.swift; sourceTree = "<group>"; };
+		04B9C2E45F6039CED2B8CE782364580D /* DTCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTCalendar.swift; path = Sources/DTCalendar.swift; sourceTree = "<group>"; };
+		05FB11DA555EA3B4FFF6F657D491DC31 /* MDCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCollectionViewCell.h; path = MaterialControls/MaterialControls/MDCollectionViewCell.h; sourceTree = "<group>"; };
+		0759BC6803D4349B87C05975C1974271 /* MDTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDTableViewCell.h; path = MaterialControls/MaterialControls/MDTableViewCell.h; sourceTree = "<group>"; };
+		0A291297C8F7527E083D931C0B2CB506 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E420F8603221B4AAC91292B0BEF8E74 /* AlbumTableViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlbumTableViewDataSource.swift; path = Pod/Classes/Model/AlbumTableViewDataSource.swift; sourceTree = "<group>"; };
+		10F4FBC218FD03E47DA515D74BDC26CD /* UIImageViewModeScaleAspect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIImageViewModeScaleAspect.m; path = UIImageViewModeScaleAspect/UIImageViewModeScaleAspect.m; sourceTree = "<group>"; };
+		122E89B52B53C06A3A6B83900690CDE9 /* MDCircularProgressLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCircularProgressLayer.h; path = MaterialControls/MaterialControls/MDCircularProgressLayer.h; sourceTree = "<group>"; };
+		12A4475D6E69EC9CA546F47F758C01CB /* MDCircularProgressLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCircularProgressLayer.m; path = MaterialControls/MaterialControls/MDCircularProgressLayer.m; sourceTree = "<group>"; };
+		13F5F2DDC3C42680F219FC0705671D78 /* MDTouchGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDTouchGestureRecognizer.m; path = MaterialControls/MaterialControls/MDTouchGestureRecognizer.m; sourceTree = "<group>"; };
+		153FC0CB707D4A0AE7BF60BF22D539A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174D122B31A9082FCA81622301F07BA9 /* NSCalendarHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSCalendarHelper.m; path = MaterialControls/MaterialControls/NSCalendarHelper.m; sourceTree = "<group>"; };
+		1803CE77C1C19D22D80D37B10B342DBD /* NSDate+MDExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+MDExtension.h"; path = "MaterialControls/MaterialControls/NSDate+MDExtension.h"; sourceTree = "<group>"; };
+		1AD95995646DAF077C5FFFD633434E72 /* Pods_SWC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SWC.framework; path = "Pods-SWC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B05B668884673AB3D4E0F3AC63203E2 /* right-arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "right-arrow@2x.png"; path = "Sources/right-arrow@2x.png"; sourceTree = "<group>"; };
+		1BB4BE8097C86BDF86AFF2830DE92596 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DDA3AD522045A9731AEC51C8515536E /* BSGridCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BSGridCollectionViewLayout.modulemap; sourceTree = "<group>"; };
+		20CEAD9A9FB2C2FEB7FFFE08B2D9C625 /* DateExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = Sources/DateExtension.swift; sourceTree = "<group>"; };
+		212D5D8C50402B295C57499C4DE6ADD1 /* MDButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDButton.h; path = MaterialControls/MaterialControls/MDButton.h; sourceTree = "<group>"; };
+		21FEBB4B4F4C7393B293148626C15AE7 /* BSImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BSImagePicker.framework; path = BSImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		222868590C49D3071E9F4D4764135FBE /* BSImagePickerSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSImagePickerSettings.swift; path = Pod/Classes/Protocol/BSImagePickerSettings.swift; sourceTree = "<group>"; };
+		234900C0F1399D60B45093A8B121AC76 /* MDTabBarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDTabBarViewController.h; path = MaterialControls/MaterialControls/MDTabBarViewController.h; sourceTree = "<group>"; };
+		236709DE70363343DC06934F375E2749 /* MDCalendarDateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCalendarDateHeader.m; path = MaterialControls/MaterialControls/MDCalendarDateHeader.m; sourceTree = "<group>"; };
+		24CEAA562AA801B12DAF0DA034B9402B /* MDConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDConstants.h; path = MaterialControls/MaterialControls/MDConstants.h; sourceTree = "<group>"; };
+		29984C82A19A1DD00DB88172A9E189BA /* MDDatePickerDialog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDDatePickerDialog.m; path = MaterialControls/MaterialControls/MDDatePickerDialog.m; sourceTree = "<group>"; };
+		2CF900DEC2CBC1CB9EADE4728B50A77A /* Pods-SWC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWC.debug.xcconfig"; sourceTree = "<group>"; };
+		2E2B8C1090748A9A425EB15C111BB534 /* RIGImageGallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RIGImageGallery-dummy.m"; sourceTree = "<group>"; };
+		2EC27617854A5F37C259214C73C8A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3307F46320D4CE1CA00D3AA557685503 /* ComposedCollectionViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComposedCollectionViewDataSource.swift; path = Pod/Classes/Model/ComposedCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		3435F4C9E730D09DA4DED0773793037F /* MDTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDTextField.h; path = MaterialControls/MaterialControls/MDTextField.h; sourceTree = "<group>"; };
+		351AD7A13D4AAE4B42B0E7E0C04D5402 /* Albums.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Albums.storyboard; path = Pod/Assets/Albums.storyboard; sourceTree = "<group>"; };
+		35B4A7933417E6B3D3D060D1F49B7F86 /* AutoResizeTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoResizeTextView.h; path = MaterialControls/MaterialControls/AutoResizeTextView.h; sourceTree = "<group>"; };
+		377E1971891FD2862EB6632B7C4F04F5 /* RIGImageGallery.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RIGImageGallery.xcconfig; sourceTree = "<group>"; };
+		3972152A8C9ED7A09F949DFC3A920CA3 /* RIGSingleImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RIGSingleImageViewController.swift; path = RIGImageGallery/RIGSingleImageViewController.swift; sourceTree = "<group>"; };
+		398990BF5E4E71AF7C535A5C08961331 /* MDDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDDatePicker.h; path = MaterialControls/MaterialControls/MDDatePicker.h; sourceTree = "<group>"; };
+		3A2B649A25E396F83A2F5007C0F3B382 /* BSGridCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSGridCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
+		3A49AB90D65F96056FC75081BED74DA3 /* MDTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDTableViewCell.m; path = MaterialControls/MaterialControls/MDTableViewCell.m; sourceTree = "<group>"; };
+		3D767212D4AACDA1527EE5F981449280 /* UIViewController+BSImagePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+BSImagePicker.swift"; path = "Pod/Classes/Extension/UIViewController+BSImagePicker.swift"; sourceTree = "<group>"; };
+		3F44EF94AE2D71B284BC48A1542CF0A5 /* right-arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "right-arrow.png"; path = "Sources/right-arrow.png"; sourceTree = "<group>"; };
+		3F74C2E82D8EB2ECC8E3F78CF46446FD /* MDSliderTickMarksView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDSliderTickMarksView.h; path = MaterialControls/MaterialControls/MDSliderTickMarksView.h; sourceTree = "<group>"; };
+		40A8B872B2B9E2D4BC1CB79702A05187 /* RIGImageGallery-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RIGImageGallery-prefix.pch"; sourceTree = "<group>"; };
+		416DBEE43A5CFBF25C37BB7277EC651A /* left-arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "left-arrow@2x.png"; path = "Sources/left-arrow@2x.png"; sourceTree = "<group>"; };
+		4187327D618A0E9E1A2E57E1082AED8E /* DatePickerDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DatePickerDialog-dummy.m"; sourceTree = "<group>"; };
+		419D683DE3682C7B5555B0A02A655A6D /* arrow_down@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_down@3x.png"; path = "Pod/Assets/arrow_down@3x.png"; sourceTree = "<group>"; };
+		4402877B80E8B5BD221767C5B2FBE736 /* DTCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DTCalendar.modulemap; sourceTree = "<group>"; };
+		4468382AED1D833BD1D98EF2C457C71C /* arrow_down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_down@2x.png"; path = "Pod/Assets/arrow_down@2x.png"; sourceTree = "<group>"; };
+		446E737333D1ADE2A6EACADA305CEEAC /* NSDateHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSDateHelper.h; path = MaterialControls/MaterialControls/NSDateHelper.h; sourceTree = "<group>"; };
+		447902B87F06FEF28A55A7AFD6B9E83B /* PhotoCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PhotoCell.xib; path = Pod/Assets/PhotoCell.xib; sourceTree = "<group>"; };
+		44ADC3C43D8A3C1F6A65FEB4099E4A7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455703DE578ECC799EB90D510BB2E22A /* BSGridCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BSGridCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DF130145E7FCFF28F8652F5A4FB77B /* MDDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDDatePicker.m; path = MaterialControls/MaterialControls/MDDatePicker.m; sourceTree = "<group>"; };
+		48BC69A1E179E31906B0DBB6EC6F2195 /* RIGImageGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RIGImageGallery.framework; path = RIGImageGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		492D67CFFF5A3FEEED513B79751B61CF /* MaterialControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialControls.xcconfig; sourceTree = "<group>"; };
+		496342869BE7E5BF3E3017C1FCC1BCF5 /* MDCalendarDateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCalendarDateHeader.h; path = MaterialControls/MaterialControls/MDCalendarDateHeader.h; sourceTree = "<group>"; };
+		499EDDBC5E91CCAFE08D838E879A5AC4 /* MDSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDSlider.m; path = MaterialControls/MaterialControls/MDSlider.m; sourceTree = "<group>"; };
+		4E43C18BD9E9CA74EEDCDD7CDF4375D0 /* DTCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTCalendar.h; path = Sources/DTCalendar.h; sourceTree = "<group>"; };
+		4F6CEC505AB3DFEEC435A817720A0747 /* UIImageViewModeScaleAspect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageViewModeScaleAspect-prefix.pch"; sourceTree = "<group>"; };
+		4F70417B418D289764E58A1E0630E1D7 /* MDTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDTextField.m; path = MaterialControls/MaterialControls/MDTextField.m; sourceTree = "<group>"; };
+		503FD55067DA320EC930BD2BE0C30572 /* DaysView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DaysView.swift; path = Sources/DaysView.swift; sourceTree = "<group>"; };
+		5106780A96C469242F044E7C524B22AF /* MDTimePickerDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDTimePickerDialog.h; path = MaterialControls/MaterialControls/MDTimePickerDialog.h; sourceTree = "<group>"; };
+		5142BDA9E00368DC92AC218E01B4857C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C5A4403ECBFDA050B883280240D2F5 /* MDButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDButton.m; path = MaterialControls/MaterialControls/MDButton.m; sourceTree = "<group>"; };
+		533A99C97D82D77888A540FFBC7A6E61 /* BSGridCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSGridCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
+		535E84C97744F5F791194C7981E4B248 /* Pods-SWC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SWC-umbrella.h"; sourceTree = "<group>"; };
+		5452E456C6E4C98BFE7E58D1CD700B65 /* MDSuggestPopupView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDSuggestPopupView.h; path = MaterialControls/MaterialControls/MDSuggestPopupView.h; sourceTree = "<group>"; };
+		54EA68B7020B6693238EC66E804EC6CD /* RIGImageGalleryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RIGImageGalleryViewController.swift; path = RIGImageGallery/RIGImageGalleryViewController.swift; sourceTree = "<group>"; };
+		54FFD2C0532C0059C75F39E23B4B6522 /* DatePickerDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DatePickerDialog.framework; path = DatePickerDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FAA7A6E7AE3912D047F78E5E74CD77 /* right-arrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "right-arrow@3x.png"; path = "Sources/right-arrow@3x.png"; sourceTree = "<group>"; };
+		5878B420F60CEECD2B786BBD061FFC8E /* DatePickerDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DatePickerDialog.modulemap; sourceTree = "<group>"; };
+		588BF8A8563DE3C42F2B9A9A16294BF8 /* add_photo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "add_photo@2x.png"; path = "Pod/Assets/add_photo@2x.png"; sourceTree = "<group>"; };
+		589A777B103FBD61E1472B593BC89DC8 /* MDSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDSwitch.h; path = MaterialControls/MaterialControls/MDSwitch.h; sourceTree = "<group>"; };
+		59BFFD2A87408CC4AF25DB6E770707D8 /* BSImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BSImagePicker.modulemap; sourceTree = "<group>"; };
+		5AD2ABABB8FC00D7C0FB6E116F30FC8D /* arrow_down@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow_down@1x.png"; path = "Pod/Assets/arrow_down@1x.png"; sourceTree = "<group>"; };
+		5BF0DBB49A936EC22B56F9819EADFB1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5EECAB7F16AF3695FF33A96377514F02 /* PhotoCollectionViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoCollectionViewDataSource.swift; path = Pod/Classes/Model/PhotoCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		5F575DECE0BBC8677FE440C38A90B852 /* MaterialControls.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MaterialControls.m; path = MaterialControls/MaterialControls/MaterialControls.m; sourceTree = "<group>"; };
+		604FA2D45BB1C04961984ECF745EE1FD /* CameraCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CameraCell.xib; path = Pod/Assets/CameraCell.xib; sourceTree = "<group>"; };
+		63700CF25417AB09C8E126A454167B95 /* MDBubbleLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDBubbleLabel.h; path = MaterialControls/MaterialControls/MDBubbleLabel.h; sourceTree = "<group>"; };
+		638F7A31089E327F132E9AA8CE9AFE0C /* BSImagePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSImagePickerViewController.swift; path = Pod/Classes/Controller/BSImagePickerViewController.swift; sourceTree = "<group>"; };
+		63C136F183CC3F3EB490AD56DD3A1BE6 /* MDCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCalendar.m; path = MaterialControls/MaterialControls/MDCalendar.m; sourceTree = "<group>"; };
+		65BFC658DCF198F66B9ADDDE8621927D /* RIGImageGallery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RIGImageGallery.h; path = RIGImageGallery/Assets/RIGImageGallery.h; sourceTree = "<group>"; };
+		66BD516E61999AEEBDBA3FBEBE10FFBF /* MDSnackbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDSnackbar.m; path = MaterialControls/MaterialControls/MDSnackbar.m; sourceTree = "<group>"; };
+		68FE4B6945D3CC0DCB1745060886282A /* JModalController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JModalController.xcconfig; sourceTree = "<group>"; };
+		6936F447F3E7CF5B652014B10DBD7AE7 /* BSImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSImagePicker-umbrella.h"; sourceTree = "<group>"; };
+		69A609784F05CB1F4C125460D6D622B6 /* AlbumCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlbumCell.swift; path = Pod/Classes/View/AlbumCell.swift; sourceTree = "<group>"; };
+		6A905380DAAC561B1068B03E773BB566 /* AlbumTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlbumTitleView.swift; path = Pod/Classes/View/AlbumTitleView.swift; sourceTree = "<group>"; };
+		6B1167D0735FD333FBB92D87120D9A97 /* MDToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDToast.h; path = MaterialControls/MaterialControls/MDToast.h; sourceTree = "<group>"; };
+		6B3E10156BADFAD27618B529C0D90CEF /* MDSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDSwitch.m; path = MaterialControls/MaterialControls/MDSwitch.m; sourceTree = "<group>"; };
+		6E9892C0C0CF347DD984FCBF68130976 /* MDSliderThumbView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDSliderThumbView.m; path = MaterialControls/MaterialControls/MDSliderThumbView.m; sourceTree = "<group>"; };
+		6F3A2502C0630DD68D5D7F1A0C019279 /* BSImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		6FB1D04D7354AFFF8FF78C49DB85239A /* RIGImageGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RIGImageGallery.modulemap; sourceTree = "<group>"; };
+		7200B8662041EBD67FE73EE2E6F6400D /* UIFontHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIFontHelper.h; path = MaterialControls/MaterialControls/UIFontHelper.h; sourceTree = "<group>"; };
+		732FBBE2F515FD2710F493CF84FE1DC7 /* MDProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDProgress.h; path = MaterialControls/MaterialControls/MDProgress.h; sourceTree = "<group>"; };
+		74796B4BF894B18765F852B1EF498985 /* MDBubbleLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDBubbleLabel.m; path = MaterialControls/MaterialControls/MDBubbleLabel.m; sourceTree = "<group>"; };
+		77F0B0D54BFBD200F7F887DFE33EEA6D /* MaterialControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialControls-dummy.m"; sourceTree = "<group>"; };
+		7A4DAB0EA166075694F9E338A4EE07F0 /* MDProgressLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDProgressLayer.m; path = MaterialControls/MaterialControls/MDProgressLayer.m; sourceTree = "<group>"; };
+		7A7A81DAF896C15D1B5974D3AD5C74FF /* DTCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DTCalendar.framework; path = DTCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A975C1834C0291266F8A345F0DAE86A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7B215F71E2DAB2DCB272F74CD348E0F2 /* WeekdaysView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeekdaysView.swift; path = Sources/WeekdaysView.swift; sourceTree = "<group>"; };
+		7D283071A0DE291230454EE6869619C4 /* MDTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDTabBar.h; path = MaterialControls/MaterialControls/MDTabBar.h; sourceTree = "<group>"; };
+		800C5DF50FCAE60C59F0377FF496217B /* MDCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCalendarCell.m; path = MaterialControls/MaterialControls/MDCalendarCell.m; sourceTree = "<group>"; };
+		80914C07A10C6C35B7B06639F0F5129F /* MDTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDTabBar.m; path = MaterialControls/MaterialControls/MDTabBar.m; sourceTree = "<group>"; };
+		80F6D4E4A1E44FE63B14278627997A68 /* PhotosViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotosViewController.swift; path = Pod/Classes/Controller/PhotosViewController.swift; sourceTree = "<group>"; };
+		819C979C3F6209BAD7743D4036275940 /* UIImageViewModeScaleAspect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageViewModeScaleAspect-umbrella.h"; sourceTree = "<group>"; };
+		820D757DD27400F3FFF9A4F62304ADBC /* UIColorHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIColorHelper.m; path = MaterialControls/MaterialControls/UIColorHelper.m; sourceTree = "<group>"; };
+		83878F85FE25E8CECA931E4A7616D548 /* MDLinearProgressLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDLinearProgressLayer.m; path = MaterialControls/MaterialControls/MDLinearProgressLayer.m; sourceTree = "<group>"; };
+		8394C155AD7915BFDEE5C71BE9064EB4 /* ResourceBundle-BSImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BSImagePicker-Info.plist"; sourceTree = "<group>"; };
+		8428FD3C6A11D28BCC79DA9C4F24DAC3 /* UIButton+NoAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+NoAnimation.swift"; path = "Pod/Classes/Extension/UIButton+NoAnimation.swift"; sourceTree = "<group>"; };
+		859C7068DA572866DA5C48194F81157D /* MDSliderIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDSliderIcon.h; path = MaterialControls/MaterialControls/MDSliderIcon.h; sourceTree = "<group>"; };
+		85FE35C06E0C93FA2675717230F12968 /* UIImageViewModeScaleAspect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImageViewModeScaleAspect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8685F300112A3AD21A01BDDB5685DB01 /* MDSliderThumbView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDSliderThumbView.h; path = MaterialControls/MaterialControls/MDSliderThumbView.h; sourceTree = "<group>"; };
+		87334BB42F323EC0D643B00EC0DD2464 /* DTCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTCalendar-prefix.pch"; sourceTree = "<group>"; };
+		880A36362AA2E898168AAE1F3183C5E2 /* MDRippleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDRippleLayer.h; path = MaterialControls/MaterialControls/MDRippleLayer.h; sourceTree = "<group>"; };
+		888452DCF27EE238AA0A71497488B2AF /* MDCalendarHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCalendarHeader.m; path = MaterialControls/MaterialControls/MDCalendarHeader.m; sourceTree = "<group>"; };
+		88FB094A3285D140156889C29B7155DE /* UIImageViewModeScaleAspect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIImageViewModeScaleAspect.xcconfig; sourceTree = "<group>"; };
+		8AB5A2B36B0B73A0B5420F179D05985F /* MDSuggestTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDSuggestTableView.m; path = MaterialControls/MaterialControls/MDSuggestTableView.m; sourceTree = "<group>"; };
+		8C6848625CF990171D33D0071129DB8B /* Settings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = Pod/Classes/Model/Settings.swift; sourceTree = "<group>"; };
+		8CCE8C19D54AB0AC1178AF66AA23800C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E712018C7B3B0A4FDD69ACC78F117CA /* BSGridCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BSGridCollectionViewLayout.framework; path = BSGridCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F43D747DD1230E405B4B0B2448A1B78 /* CameraCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraCell.swift; path = Pod/Classes/View/CameraCell.swift; sourceTree = "<group>"; };
+		8F7A182F8B59DC1891ADFC7290EDF6B5 /* Pods-SWC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SWC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8FD7912536782A4C79ECE29BA9574B8A /* DTCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTCalendar-umbrella.h"; sourceTree = "<group>"; };
+		9020CDECDD3F1614CD304B850B1B1A6C /* MDCalendarYearSelectorViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCalendarYearSelectorViewCell.h; path = MaterialControls/MaterialControls/MDCalendarYearSelectorViewCell.h; sourceTree = "<group>"; };
+		90FEC57641DD67D485884935D19D6D1D /* MDCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCollectionViewCell.m; path = MaterialControls/MaterialControls/MDCollectionViewCell.m; sourceTree = "<group>"; };
+		923B6B249D268B21E190DA278D8DCA27 /* MDProgressLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDProgressLayer.h; path = MaterialControls/MaterialControls/MDProgressLayer.h; sourceTree = "<group>"; };
+		92E4F28696B0FEA3D0DC404B241ED6B4 /* BSImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSImagePicker-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9489FEA234CEF7043E122577341C8FB7 /* JModalController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JModalController.swift; path = Pod/Classes/JModalController.swift; sourceTree = "<group>"; };
+		949935A3AC37EF68ACE7F0D4C82AB7FA /* MDSliderIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDSliderIcon.m; path = MaterialControls/MaterialControls/MDSliderIcon.m; sourceTree = "<group>"; };
+		967B389567C15BEE510FF83DB0455A9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C227924C3CE6CCE58BA2562860BD71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F7BE609F152F2BF449B59D2E29E246 /* MDSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDSlider.h; path = MaterialControls/MaterialControls/MDSlider.h; sourceTree = "<group>"; };
+		98EB427679E0DD6FC376FF62F7E9D6DC /* MaterialControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaterialControls.framework; path = MaterialControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99776264025AE9E30B2934E00671ED59 /* UIImageViewModeScaleAspect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIImageViewModeScaleAspect.h; path = UIImageViewModeScaleAspect/UIImageViewModeScaleAspect.h; sourceTree = "<group>"; };
+		9A155165177F1D2ED85F0A2D444ED14D /* PreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewViewController.swift; path = Pod/Classes/Controller/PreviewViewController.swift; sourceTree = "<group>"; };
+		9A6AB848344454F8E8451DDABD404E3E /* DatePickerDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerDialog-umbrella.h"; sourceTree = "<group>"; };
+		9C2A845682CA9A9384FDF274CFA427CC /* MDCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCalendarCell.h; path = MaterialControls/MaterialControls/MDCalendarCell.h; sourceTree = "<group>"; };
+		9CC8333FF0BBEDB96B626212ABAA97A5 /* MDRippleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDRippleLayer.m; path = MaterialControls/MaterialControls/MDRippleLayer.m; sourceTree = "<group>"; };
+		A2FED7E8046DEC093F0E712F488BA77C /* MDDeviceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDDeviceHelper.m; path = MaterialControls/MaterialControls/MDDeviceHelper.m; sourceTree = "<group>"; };
+		A32B5DEF7F2705F6D819BCEF821D9938 /* MDTimePickerDialog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDTimePickerDialog.m; path = MaterialControls/MaterialControls/MDTimePickerDialog.m; sourceTree = "<group>"; };
+		A57844AD7B1C54013DB88C03F454AED0 /* JModalController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JModalController-prefix.pch"; sourceTree = "<group>"; };
+		A5AF7A40E231FC04224535D0006851B6 /* MaterialControls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialControls.h; path = MaterialControls/MaterialControls/MaterialControls.h; sourceTree = "<group>"; };
+		A5B62147F53CC81F70572AFABD93B055 /* GridCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GridCollectionViewLayout.swift; path = Pod/Classes/GridCollectionViewLayout.swift; sourceTree = "<group>"; };
+		A7CB77524C60728138716C4269BBA763 /* DatePickerDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerDialog-prefix.pch"; sourceTree = "<group>"; };
+		A7E6EF89268F75ACD5B29B1DBCB98FEF /* DTCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTCalendar.xcconfig; sourceTree = "<group>"; };
+		A915751216C99578A7E114C9652C477A /* MDMathHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDMathHelper.h; path = MaterialControls/MaterialControls/MDMathHelper.h; sourceTree = "<group>"; };
+		AEEC25D72FE01CAD0AA068C1499474A4 /* add_photo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "add_photo@3x.png"; path = "Pod/Assets/add_photo@3x.png"; sourceTree = "<group>"; };
+		B044F88D58E92A192AC8ACA963F54D48 /* MaterialControls.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MaterialControls.modulemap; sourceTree = "<group>"; };
+		B1B16FD06FB176BAD15C082C6FFC7A1A /* ControlsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlsView.swift; path = Sources/ControlsView.swift; sourceTree = "<group>"; };
+		B34C27ABD9CD053843EEDC14F367C8A4 /* MDDatePickerDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDDatePickerDialog.h; path = MaterialControls/MaterialControls/MDDatePickerDialog.h; sourceTree = "<group>"; };
+		B3C581D3CC5835D5974CD5BA22A24FBD /* MDCalendarHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCalendarHeader.h; path = MaterialControls/MaterialControls/MDCalendarHeader.h; sourceTree = "<group>"; };
+		B4316D53270D6FD711982B1F460F91BD /* RIGAutoCenteringScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RIGAutoCenteringScrollView.swift; path = RIGImageGallery/RIGAutoCenteringScrollView.swift; sourceTree = "<group>"; };
+		B5F53CE7B6D07BEBEECCA9C0DE26E343 /* MaterialControls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialControls-umbrella.h"; sourceTree = "<group>"; };
+		B72B563D92E538B1781D4A1E3E38757B /* Pods-SWC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWC-frameworks.sh"; sourceTree = "<group>"; };
+		B8FCD2B5B2E0D76CBF732DBD1D8BD910 /* UIViewHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIViewHelper.m; path = MaterialControls/MaterialControls/UIViewHelper.m; sourceTree = "<group>"; };
+		BA15A64F0D333F456F6EE575FA02730C /* SelectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectionView.swift; path = Pod/Classes/View/SelectionView.swift; sourceTree = "<group>"; };
+		BA8BF1EEC83BC9AEFBE47A9A3591D528 /* NSCalendarHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSCalendarHelper.h; path = MaterialControls/MaterialControls/NSCalendarHelper.h; sourceTree = "<group>"; };
+		BAB8F0E896C51ACA88214FC3E2EDF2CE /* Pods-SWC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SWC.modulemap"; sourceTree = "<group>"; };
+		BB85789A63CB42342AC150792E114CB9 /* JModalController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JModalController-dummy.m"; sourceTree = "<group>"; };
+		BCAAF6DE7E91CB6AF671C9D0DE5EFE60 /* UIView+MDExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDExtension.m"; path = "MaterialControls/MaterialControls/UIView+MDExtension.m"; sourceTree = "<group>"; };
+		BCD494EA085BA76A5477F6A63EDB6C5A /* CameraCollectionViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraCollectionViewDataSource.swift; path = Pod/Classes/Model/CameraCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		BDFF4101359C6B125224DA12A4753132 /* MDMathHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDMathHelper.m; path = MaterialControls/MaterialControls/MDMathHelper.m; sourceTree = "<group>"; };
+		C1109A36BD5FF25B2AAA4F1D51ACE97C /* MDCalendarYearSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCalendarYearSelector.m; path = MaterialControls/MaterialControls/MDCalendarYearSelector.m; sourceTree = "<group>"; };
+		C2E03AFC8BBAC154283AADA79FE5933F /* UIImageViewModeScaleAspect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIImageViewModeScaleAspect.framework; path = UIImageViewModeScaleAspect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A12825C035AEF221CC35DB2394A563 /* MDSliderTickMarksView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDSliderTickMarksView.m; path = MaterialControls/MaterialControls/MDSliderTickMarksView.m; sourceTree = "<group>"; };
+		C78D7DA11D983D88CF69F8866D7CFCDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD814670E8B86EE7C69D8C103256272 /* MDCalendarYearSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCalendarYearSelector.h; path = MaterialControls/MaterialControls/MDCalendarYearSelector.h; sourceTree = "<group>"; };
+		CDAEC7684E168D759B058F6B78DB2A34 /* NSDateHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSDateHelper.m; path = MaterialControls/MaterialControls/NSDateHelper.m; sourceTree = "<group>"; };
+		CF5F4DD7CE8671129974B7EE90733EB5 /* BSGridCollectionViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSGridCollectionViewLayout.xcconfig; sourceTree = "<group>"; };
+		CFC4EF2D17AD6DD15D4CB155CB9CE6A7 /* MDToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDToast.m; path = MaterialControls/MaterialControls/MDToast.m; sourceTree = "<group>"; };
+		D00B0A92C4099FEC357989620E9B96FA /* BSImagePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BSImagePicker.bundle; path = BSImagePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02A0335F4547450CF6219401F666C65 /* MaterialControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialControls-prefix.pch"; sourceTree = "<group>"; };
+		D0A4A723046E1C5F2A4B460EDC804EDB /* UIViewHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIViewHelper.h; path = MaterialControls/MaterialControls/UIViewHelper.h; sourceTree = "<group>"; };
+		D16A43815002464B94D255CEF1A2E55B /* AlbumsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlbumsViewController.swift; path = Pod/Classes/Controller/AlbumsViewController.swift; sourceTree = "<group>"; };
+		D1BDFD4DD5FFB917713F498747ECA1D9 /* MDProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDProgress.m; path = MaterialControls/MaterialControls/MDProgress.m; sourceTree = "<group>"; };
+		D25FCDF84A9E82052AB9813F9DD8ECF8 /* AutoResizeTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AutoResizeTextView.m; path = MaterialControls/MaterialControls/AutoResizeTextView.m; sourceTree = "<group>"; };
+		D2C5DA9B21E51DA0FF697726E0167568 /* JModalController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JModalController.framework; path = JModalController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35D9B5C1E3DFD4B6E1A7184F9015058 /* MDCalendarYearSelectorViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCalendarYearSelectorViewCell.m; path = MaterialControls/MaterialControls/MDCalendarYearSelectorViewCell.m; sourceTree = "<group>"; };
+		D56F1005539642EC91A0A5A202779C00 /* MDSuggestTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDSuggestTableView.h; path = MaterialControls/MaterialControls/MDSuggestTableView.h; sourceTree = "<group>"; };
+		D626C67A9C8D2984DB15BE538EBB4D18 /* RIGImageGalleryItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RIGImageGalleryItem.swift; path = RIGImageGallery/RIGImageGalleryItem.swift; sourceTree = "<group>"; };
+		D6CB1EAF40A041A457CF89239BBE1AE2 /* MDSuggestPopupView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDSuggestPopupView.m; path = MaterialControls/MaterialControls/MDSuggestPopupView.m; sourceTree = "<group>"; };
+		D70ED40B4EF0E502C2E955779A11844B /* DTCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTCalendar-dummy.m"; sourceTree = "<group>"; };
+		D7968BECEB7443423BFBC51876C6017F /* left-arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "left-arrow.png"; path = "Sources/left-arrow.png"; sourceTree = "<group>"; };
+		DA739F30CAD9E44CB5AE7C421C96C03F /* UIView+MDExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDExtension.h"; path = "MaterialControls/MaterialControls/UIView+MDExtension.h"; sourceTree = "<group>"; };
+		DB47C4E8662CAA76FF625F43174D48B4 /* NSDate+MDExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+MDExtension.m"; path = "MaterialControls/MaterialControls/NSDate+MDExtension.m"; sourceTree = "<group>"; };
+		DEF414813D636FF512FBB0B85B9E544E /* RIGImageGallery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RIGImageGallery-umbrella.h"; sourceTree = "<group>"; };
+		E0DF2C73BB4CE47FD1AD33299A4DDCC2 /* UIImageViewModeScaleAspect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UIImageViewModeScaleAspect.modulemap; sourceTree = "<group>"; };
+		E1542D306A02D50549CACCDB8C694F4D /* Pods-SWC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SWC.release.xcconfig"; sourceTree = "<group>"; };
+		E2952325335C1B02D825475FF44D923D /* UIImageViewModeScaleAspect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageViewModeScaleAspect-dummy.m"; sourceTree = "<group>"; };
+		E2DA59FAAABF45BF2AD46FBECB39559D /* UIFontHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIFontHelper.m; path = MaterialControls/MaterialControls/UIFontHelper.m; sourceTree = "<group>"; };
+		E4E9051FE25AE5EAA4A671ACCF23816D /* BSGridCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSGridCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
+		E6505BD8161A7C63BC808C7557A3A531 /* MDTouchGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDTouchGestureRecognizer.h; path = MaterialControls/MaterialControls/MDTouchGestureRecognizer.h; sourceTree = "<group>"; };
+		E9C82FC5A738CE75400516B3DF2C4495 /* Pods-SWC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SWC-dummy.m"; sourceTree = "<group>"; };
+		ECF67237A9538960F8E1DA3E1547D30D /* PhotoCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoCell.swift; path = Pod/Classes/View/PhotoCell.swift; sourceTree = "<group>"; };
+		EFAA6B0DEC5CAE056F1A18D82ADFD4CA /* add_photo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = add_photo.png; path = Pod/Assets/add_photo.png; sourceTree = "<group>"; };
+		F099905152D7C3F9F0C5DB6814586683 /* MDCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCalendar.h; path = MaterialControls/MaterialControls/MDCalendar.h; sourceTree = "<group>"; };
+		F1819A5307DD971D031BDC24147DACF7 /* Pods-SWC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SWC-resources.sh"; sourceTree = "<group>"; };
+		F3178E6467926BF9E6EF502199C28F2D /* AlbumTitleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AlbumTitleView.xib; path = Pod/Assets/AlbumTitleView.xib; sourceTree = "<group>"; };
+		F34957ADE0434B49F3DE7F8E21477E09 /* MDDeviceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDDeviceHelper.h; path = MaterialControls/MaterialControls/MDDeviceHelper.h; sourceTree = "<group>"; };
+		F38F563E6F1FE2E0AB868DE0E47B23D7 /* MDLinearProgressLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDLinearProgressLayer.h; path = MaterialControls/MaterialControls/MDLinearProgressLayer.h; sourceTree = "<group>"; };
+		F61E466D8793CA6AD6A41D5AA45A9E3F /* DatePickerDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DatePickerDialog.xcconfig; sourceTree = "<group>"; };
+		F8518F8B411141E55C27C86F553BBBA0 /* Pods-SWC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SWC-acknowledgements.plist"; sourceTree = "<group>"; };
+		F90807D1FEF99219DD3ED570E8F329E2 /* left-arrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "left-arrow@3x.png"; path = "Sources/left-arrow@3x.png"; sourceTree = "<group>"; };
+		F935B1B16BA4D0FDA35A5B43D5B51B88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = RIGImageGallery/Assets/Info.plist; sourceTree = "<group>"; };
+		FB0190C32E942A0D97F6A3B04B901CB4 /* NSIndexSet+NSIndexPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSIndexSet+NSIndexPath.swift"; path = "Pod/Classes/Extension/NSIndexSet+NSIndexPath.swift"; sourceTree = "<group>"; };
+		FB15297158453760FDDE4BC3536C0251 /* JModalController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JModalController.modulemap; sourceTree = "<group>"; };
+		FB469AFD7835CB932CFD8C2CF596EF1F /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		FB559DF4F2E3F8A8FA0DD1EBFEE12B13 /* BSImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSImagePicker.xcconfig; sourceTree = "<group>"; };
+		FBBFAC454B6784F01BB973AA013812C0 /* DatePickerDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerDialog.swift; path = Sources/DatePickerDialog.swift; sourceTree = "<group>"; };
+		FCBDA73591D8C05FEC75444E77BD6B28 /* JModalController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JModalController-umbrella.h"; sourceTree = "<group>"; };
+		FCF36283F5CDD838A8B1D3E2C6C938E8 /* MDTabBarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDTabBarViewController.m; path = MaterialControls/MaterialControls/MDTabBarViewController.m; sourceTree = "<group>"; };
+		FE84C2CBC25327A7F0D189C18D39BB04 /* UIColorHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIColorHelper.h; path = MaterialControls/MaterialControls/UIColorHelper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15FA5E58B75C657D2A8F7460A87A6BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DFECEDBCCCE14D33EAF9DFFB58796D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AE3E263B8032AC2966F95252E5AADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135EB128936A1909CF73AEFF05727C3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B85701C8ECD83522FC6DECF782F040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9095B7AF5DD0A8A2EF8D17EE71CA3542 /* BSGridCollectionViewLayout.framework in Frameworks */,
+				41005F8643A25C1DB2AA8B39801EDF97 /* Foundation.framework in Frameworks */,
+				49F968C4A1F2ACDC36A2F36F1935EC81 /* Photos.framework in Frameworks */,
+				5FA658883BB771F369A7E3C578495ECB /* UIImageViewModeScaleAspect.framework in Frameworks */,
+				5649814E47404A77F87DACA903F49B1E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F59FC7EB2F3917A859AE1EDE2ABAB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E230EC0E9787F8E0586FC2AEA21FD9DC /* Foundation.framework in Frameworks */,
+				F3B3729A211715A9208DBA6E9D1882E5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDF0144C1BE2952713B4DE18E5B202E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD3E8AC8D91F0BD19F9511E54D0B5E0 /* CoreGraphics.framework in Frameworks */,
+				5B72A38409705768E447EE38E85A6BE3 /* Foundation.framework in Frameworks */,
+				2F57A8165DA62FD547CCADB558ED52C6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51795B959230EC862234AED4082E704C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A8AD7C215A6FCF0F617929A33FAE1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F0FBDAC57D179F6EFFB1AF53947706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4F339432855C59191CD989566F1014 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84CB12748D5DA60EC95A8B0247389A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9816B44607F0A0B2CEA229E64C86E19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA667E91BAC0DD2E1E113C075C4D17EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0C2B7505D61447D90C63668464C7E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6B130BF7B2FEB493350BBCBABFFD79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F8ED4A38BD52CCF7B4BEB5224BE23B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44ADC3C43D8A3C1F6A65FEB4099E4A7E /* Info.plist */,
+				FB15297158453760FDDE4BC3536C0251 /* JModalController.modulemap */,
+				68FE4B6945D3CC0DCB1745060886282A /* JModalController.xcconfig */,
+				BB85789A63CB42342AC150792E114CB9 /* JModalController-dummy.m */,
+				A57844AD7B1C54013DB88C03F454AED0 /* JModalController-prefix.pch */,
+				FCBDA73591D8C05FEC75444E77BD6B28 /* JModalController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JModalController";
+			sourceTree = "<group>";
+		};
+		14148753B21B16E12B17B64808A82775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				455703DE578ECC799EB90D510BB2E22A /* BSGridCollectionViewLayout.framework */,
+				85FE35C06E0C93FA2675717230F12968 /* UIImageViewModeScaleAspect.framework */,
+				E44F0D753A764F40F68F4D662DD4FACD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		270707DB21ED1C44523C18D2257FA19A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7968BECEB7443423BFBC51876C6017F /* left-arrow.png */,
+				416DBEE43A5CFBF25C37BB7277EC651A /* left-arrow@2x.png */,
+				F90807D1FEF99219DD3ED570E8F329E2 /* left-arrow@3x.png */,
+				3F44EF94AE2D71B284BC48A1542CF0A5 /* right-arrow.png */,
+				1B05B668884673AB3D4E0F3AC63203E2 /* right-arrow@2x.png */,
+				55FAA7A6E7AE3912D047F78E5E74CD77 /* right-arrow@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		34882F8482D521A7452E85F207BDA3F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFAA6B0DEC5CAE056F1A18D82ADFD4CA /* add_photo.png */,
+				588BF8A8563DE3C42F2B9A9A16294BF8 /* add_photo@2x.png */,
+				AEEC25D72FE01CAD0AA068C1499474A4 /* add_photo@3x.png */,
+				351AD7A13D4AAE4B42B0E7E0C04D5402 /* Albums.storyboard */,
+				F3178E6467926BF9E6EF502199C28F2D /* AlbumTitleView.xib */,
+				5AD2ABABB8FC00D7C0FB6E116F30FC8D /* arrow_down@1x.png */,
+				4468382AED1D833BD1D98EF2C457C71C /* arrow_down@2x.png */,
+				419D683DE3682C7B5555B0A02A655A6D /* arrow_down@3x.png */,
+				604FA2D45BB1C04961984ECF745EE1FD /* CameraCell.xib */,
+				447902B87F06FEF28A55A7AFD6B9E83B /* PhotoCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3A12157559E1FE1DA23C171F7459C262 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C78D7DA11D983D88CF69F8866D7CFCDC /* Info.plist */,
+				6FB1D04D7354AFFF8FF78C49DB85239A /* RIGImageGallery.modulemap */,
+				377E1971891FD2862EB6632B7C4F04F5 /* RIGImageGallery.xcconfig */,
+				2E2B8C1090748A9A425EB15C111BB534 /* RIGImageGallery-dummy.m */,
+				40A8B872B2B9E2D4BC1CB79702A05187 /* RIGImageGallery-prefix.pch */,
+				DEF414813D636FF512FBB0B85B9E544E /* RIGImageGallery-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RIGImageGallery";
+			sourceTree = "<group>";
+		};
+		3C440078A517AEB8BF3A310E07D73C0E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				967B389567C15BEE510FF83DB0455A9D /* Info.plist */,
+				E0DF2C73BB4CE47FD1AD33299A4DDCC2 /* UIImageViewModeScaleAspect.modulemap */,
+				88FB094A3285D140156889C29B7155DE /* UIImageViewModeScaleAspect.xcconfig */,
+				E2952325335C1B02D825475FF44D923D /* UIImageViewModeScaleAspect-dummy.m */,
+				4F6CEC505AB3DFEEC435A817720A0747 /* UIImageViewModeScaleAspect-prefix.pch */,
+				819C979C3F6209BAD7743D4036275940 /* UIImageViewModeScaleAspect-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIImageViewModeScaleAspect";
+			sourceTree = "<group>";
+		};
+		3F5066E8C8D74ECB9394B5B0EF4438B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57B42DACC1DF6375FB2B670BFE82E07C /* BSGridCollectionViewLayout */,
+				D0B275198C8025EFADFFD0F138292E8A /* BSImagePicker */,
+				C15A52F931915F6EDD18909AEDC2526F /* DatePickerDialog */,
+				D649D01533D03F7A29E4EB901BBFF2F6 /* DTCalendar */,
+				78524E80E8BB88F5B6BF144C9A7F93CC /* JModalController */,
+				A356C2B716ED43163A00BEE5B266560A /* MaterialControls */,
+				59F096AAD5BED8172825F3D1D1C58578 /* RIGImageGallery */,
+				3F6D2722B4CDA61C2A5FD40451763DBF /* UIImageViewModeScaleAspect */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F6D2722B4CDA61C2A5FD40451763DBF /* UIImageViewModeScaleAspect */ = {
+			isa = PBXGroup;
+			children = (
+				99776264025AE9E30B2934E00671ED59 /* UIImageViewModeScaleAspect.h */,
+				10F4FBC218FD03E47DA515D74BDC26CD /* UIImageViewModeScaleAspect.m */,
+				3C440078A517AEB8BF3A310E07D73C0E /* Support Files */,
+			);
+			name = UIImageViewModeScaleAspect;
+			path = UIImageViewModeScaleAspect;
+			sourceTree = "<group>";
+		};
+		4F70CD032D7BCC1DEC7CBD85E4F73032 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4402877B80E8B5BD221767C5B2FBE736 /* DTCalendar.modulemap */,
+				A7E6EF89268F75ACD5B29B1DBCB98FEF /* DTCalendar.xcconfig */,
+				D70ED40B4EF0E502C2E955779A11844B /* DTCalendar-dummy.m */,
+				87334BB42F323EC0D643B00EC0DD2464 /* DTCalendar-prefix.pch */,
+				8FD7912536782A4C79ECE29BA9574B8A /* DTCalendar-umbrella.h */,
+				8CCE8C19D54AB0AC1178AF66AA23800C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DTCalendar";
+			sourceTree = "<group>";
+		};
+		57B42DACC1DF6375FB2B670BFE82E07C /* BSGridCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A5B62147F53CC81F70572AFABD93B055 /* GridCollectionViewLayout.swift */,
+				FEEAA242490577651746649DC712A866 /* Support Files */,
+			);
+			name = BSGridCollectionViewLayout;
+			path = BSGridCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		59F096AAD5BED8172825F3D1D1C58578 /* RIGImageGallery */ = {
+			isa = PBXGroup;
+			children = (
+				F935B1B16BA4D0FDA35A5B43D5B51B88 /* Info.plist */,
+				B4316D53270D6FD711982B1F460F91BD /* RIGAutoCenteringScrollView.swift */,
+				65BFC658DCF198F66B9ADDDE8621927D /* RIGImageGallery.h */,
+				D626C67A9C8D2984DB15BE538EBB4D18 /* RIGImageGalleryItem.swift */,
+				54EA68B7020B6693238EC66E804EC6CD /* RIGImageGalleryViewController.swift */,
+				3972152A8C9ED7A09F949DFC3A920CA3 /* RIGSingleImageViewController.swift */,
+				3A12157559E1FE1DA23C171F7459C262 /* Support Files */,
+			);
+			name = RIGImageGallery;
+			path = RIGImageGallery;
+			sourceTree = "<group>";
+		};
+		69491DA85F104D7CDB505243F3A7EA73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E712018C7B3B0A4FDD69ACC78F117CA /* BSGridCollectionViewLayout.framework */,
+				D00B0A92C4099FEC357989620E9B96FA /* BSImagePicker.bundle */,
+				21FEBB4B4F4C7393B293148626C15AE7 /* BSImagePicker.framework */,
+				54FFD2C0532C0059C75F39E23B4B6522 /* DatePickerDialog.framework */,
+				7A7A81DAF896C15D1B5974D3AD5C74FF /* DTCalendar.framework */,
+				D2C5DA9B21E51DA0FF697726E0167568 /* JModalController.framework */,
+				98EB427679E0DD6FC376FF62F7E9D6DC /* MaterialControls.framework */,
+				1AD95995646DAF077C5FFFD633434E72 /* Pods_SWC.framework */,
+				48BC69A1E179E31906B0DBB6EC6F2195 /* RIGImageGallery.framework */,
+				C2E03AFC8BBAC154283AADA79FE5933F /* UIImageViewModeScaleAspect.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BBCDD4F8290BAEED9A79E1A2123E72C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59BFFD2A87408CC4AF25DB6E770707D8 /* BSImagePicker.modulemap */,
+				FB559DF4F2E3F8A8FA0DD1EBFEE12B13 /* BSImagePicker.xcconfig */,
+				92E4F28696B0FEA3D0DC404B241ED6B4 /* BSImagePicker-dummy.m */,
+				6F3A2502C0630DD68D5D7F1A0C019279 /* BSImagePicker-prefix.pch */,
+				6936F447F3E7CF5B652014B10DBD7AE7 /* BSImagePicker-umbrella.h */,
+				5142BDA9E00368DC92AC218E01B4857C /* Info.plist */,
+				8394C155AD7915BFDEE5C71BE9064EB4 /* ResourceBundle-BSImagePicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BSImagePicker";
+			sourceTree = "<group>";
+		};
+		78524E80E8BB88F5B6BF144C9A7F93CC /* JModalController */ = {
+			isa = PBXGroup;
+			children = (
+				9489FEA234CEF7043E122577341C8FB7 /* JModalController.swift */,
+				09F8ED4A38BD52CCF7B4BEB5224BE23B /* Support Files */,
+			);
+			name = JModalController;
+			path = JModalController;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14148753B21B16E12B17B64808A82775 /* Frameworks */,
+				3F5066E8C8D74ECB9394B5B0EF4438B9 /* Pods */,
+				69491DA85F104D7CDB505243F3A7EA73 /* Products */,
+				A71FEA05C85C54C86C741FC20D5CA8E8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		927F20558F2ECAE147053A00A753BB89 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C227924C3CE6CCE58BA2562860BD71 /* Info.plist */,
+				B044F88D58E92A192AC8ACA963F54D48 /* MaterialControls.modulemap */,
+				492D67CFFF5A3FEEED513B79751B61CF /* MaterialControls.xcconfig */,
+				77F0B0D54BFBD200F7F887DFE33EEA6D /* MaterialControls-dummy.m */,
+				D02A0335F4547450CF6219401F666C65 /* MaterialControls-prefix.pch */,
+				B5F53CE7B6D07BEBEECCA9C0DE26E343 /* MaterialControls-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MaterialControls";
+			sourceTree = "<group>";
+		};
+		A356C2B716ED43163A00BEE5B266560A /* MaterialControls */ = {
+			isa = PBXGroup;
+			children = (
+				35B4A7933417E6B3D3D060D1F49B7F86 /* AutoResizeTextView.h */,
+				D25FCDF84A9E82052AB9813F9DD8ECF8 /* AutoResizeTextView.m */,
+				A5AF7A40E231FC04224535D0006851B6 /* MaterialControls.h */,
+				5F575DECE0BBC8677FE440C38A90B852 /* MaterialControls.m */,
+				63700CF25417AB09C8E126A454167B95 /* MDBubbleLabel.h */,
+				74796B4BF894B18765F852B1EF498985 /* MDBubbleLabel.m */,
+				212D5D8C50402B295C57499C4DE6ADD1 /* MDButton.h */,
+				52C5A4403ECBFDA050B883280240D2F5 /* MDButton.m */,
+				F099905152D7C3F9F0C5DB6814586683 /* MDCalendar.h */,
+				63C136F183CC3F3EB490AD56DD3A1BE6 /* MDCalendar.m */,
+				9C2A845682CA9A9384FDF274CFA427CC /* MDCalendarCell.h */,
+				800C5DF50FCAE60C59F0377FF496217B /* MDCalendarCell.m */,
+				496342869BE7E5BF3E3017C1FCC1BCF5 /* MDCalendarDateHeader.h */,
+				236709DE70363343DC06934F375E2749 /* MDCalendarDateHeader.m */,
+				B3C581D3CC5835D5974CD5BA22A24FBD /* MDCalendarHeader.h */,
+				888452DCF27EE238AA0A71497488B2AF /* MDCalendarHeader.m */,
+				CAD814670E8B86EE7C69D8C103256272 /* MDCalendarYearSelector.h */,
+				C1109A36BD5FF25B2AAA4F1D51ACE97C /* MDCalendarYearSelector.m */,
+				9020CDECDD3F1614CD304B850B1B1A6C /* MDCalendarYearSelectorViewCell.h */,
+				D35D9B5C1E3DFD4B6E1A7184F9015058 /* MDCalendarYearSelectorViewCell.m */,
+				122E89B52B53C06A3A6B83900690CDE9 /* MDCircularProgressLayer.h */,
+				12A4475D6E69EC9CA546F47F758C01CB /* MDCircularProgressLayer.m */,
+				05FB11DA555EA3B4FFF6F657D491DC31 /* MDCollectionViewCell.h */,
+				90FEC57641DD67D485884935D19D6D1D /* MDCollectionViewCell.m */,
+				24CEAA562AA801B12DAF0DA034B9402B /* MDConstants.h */,
+				398990BF5E4E71AF7C535A5C08961331 /* MDDatePicker.h */,
+				45DF130145E7FCFF28F8652F5A4FB77B /* MDDatePicker.m */,
+				B34C27ABD9CD053843EEDC14F367C8A4 /* MDDatePickerDialog.h */,
+				29984C82A19A1DD00DB88172A9E189BA /* MDDatePickerDialog.m */,
+				F34957ADE0434B49F3DE7F8E21477E09 /* MDDeviceHelper.h */,
+				A2FED7E8046DEC093F0E712F488BA77C /* MDDeviceHelper.m */,
+				F38F563E6F1FE2E0AB868DE0E47B23D7 /* MDLinearProgressLayer.h */,
+				83878F85FE25E8CECA931E4A7616D548 /* MDLinearProgressLayer.m */,
+				A915751216C99578A7E114C9652C477A /* MDMathHelper.h */,
+				BDFF4101359C6B125224DA12A4753132 /* MDMathHelper.m */,
+				732FBBE2F515FD2710F493CF84FE1DC7 /* MDProgress.h */,
+				D1BDFD4DD5FFB917713F498747ECA1D9 /* MDProgress.m */,
+				923B6B249D268B21E190DA278D8DCA27 /* MDProgressLayer.h */,
+				7A4DAB0EA166075694F9E338A4EE07F0 /* MDProgressLayer.m */,
+				880A36362AA2E898168AAE1F3183C5E2 /* MDRippleLayer.h */,
+				9CC8333FF0BBEDB96B626212ABAA97A5 /* MDRippleLayer.m */,
+				97F7BE609F152F2BF449B59D2E29E246 /* MDSlider.h */,
+				499EDDBC5E91CCAFE08D838E879A5AC4 /* MDSlider.m */,
+				859C7068DA572866DA5C48194F81157D /* MDSliderIcon.h */,
+				949935A3AC37EF68ACE7F0D4C82AB7FA /* MDSliderIcon.m */,
+				8685F300112A3AD21A01BDDB5685DB01 /* MDSliderThumbView.h */,
+				6E9892C0C0CF347DD984FCBF68130976 /* MDSliderThumbView.m */,
+				3F74C2E82D8EB2ECC8E3F78CF46446FD /* MDSliderTickMarksView.h */,
+				C5A12825C035AEF221CC35DB2394A563 /* MDSliderTickMarksView.m */,
+				001C38FB88FA11DE5B6A724B86C4F540 /* MDSnackbar.h */,
+				66BD516E61999AEEBDBA3FBEBE10FFBF /* MDSnackbar.m */,
+				5452E456C6E4C98BFE7E58D1CD700B65 /* MDSuggestPopupView.h */,
+				D6CB1EAF40A041A457CF89239BBE1AE2 /* MDSuggestPopupView.m */,
+				D56F1005539642EC91A0A5A202779C00 /* MDSuggestTableView.h */,
+				8AB5A2B36B0B73A0B5420F179D05985F /* MDSuggestTableView.m */,
+				589A777B103FBD61E1472B593BC89DC8 /* MDSwitch.h */,
+				6B3E10156BADFAD27618B529C0D90CEF /* MDSwitch.m */,
+				7D283071A0DE291230454EE6869619C4 /* MDTabBar.h */,
+				80914C07A10C6C35B7B06639F0F5129F /* MDTabBar.m */,
+				234900C0F1399D60B45093A8B121AC76 /* MDTabBarViewController.h */,
+				FCF36283F5CDD838A8B1D3E2C6C938E8 /* MDTabBarViewController.m */,
+				0759BC6803D4349B87C05975C1974271 /* MDTableViewCell.h */,
+				3A49AB90D65F96056FC75081BED74DA3 /* MDTableViewCell.m */,
+				3435F4C9E730D09DA4DED0773793037F /* MDTextField.h */,
+				4F70417B418D289764E58A1E0630E1D7 /* MDTextField.m */,
+				5106780A96C469242F044E7C524B22AF /* MDTimePickerDialog.h */,
+				A32B5DEF7F2705F6D819BCEF821D9938 /* MDTimePickerDialog.m */,
+				6B1167D0735FD333FBB92D87120D9A97 /* MDToast.h */,
+				CFC4EF2D17AD6DD15D4CB155CB9CE6A7 /* MDToast.m */,
+				E6505BD8161A7C63BC808C7557A3A531 /* MDTouchGestureRecognizer.h */,
+				13F5F2DDC3C42680F219FC0705671D78 /* MDTouchGestureRecognizer.m */,
+				BA8BF1EEC83BC9AEFBE47A9A3591D528 /* NSCalendarHelper.h */,
+				174D122B31A9082FCA81622301F07BA9 /* NSCalendarHelper.m */,
+				1803CE77C1C19D22D80D37B10B342DBD /* NSDate+MDExtension.h */,
+				DB47C4E8662CAA76FF625F43174D48B4 /* NSDate+MDExtension.m */,
+				446E737333D1ADE2A6EACADA305CEEAC /* NSDateHelper.h */,
+				CDAEC7684E168D759B058F6B78DB2A34 /* NSDateHelper.m */,
+				FE84C2CBC25327A7F0D189C18D39BB04 /* UIColorHelper.h */,
+				820D757DD27400F3FFF9A4F62304ADBC /* UIColorHelper.m */,
+				7200B8662041EBD67FE73EE2E6F6400D /* UIFontHelper.h */,
+				E2DA59FAAABF45BF2AD46FBECB39559D /* UIFontHelper.m */,
+				DA739F30CAD9E44CB5AE7C421C96C03F /* UIView+MDExtension.h */,
+				BCAAF6DE7E91CB6AF671C9D0DE5EFE60 /* UIView+MDExtension.m */,
+				D0A4A723046E1C5F2A4B460EDC804EDB /* UIViewHelper.h */,
+				B8FCD2B5B2E0D76CBF732DBD1D8BD910 /* UIViewHelper.m */,
+				927F20558F2ECAE147053A00A753BB89 /* Support Files */,
+			);
+			name = MaterialControls;
+			path = MaterialControls;
+			sourceTree = "<group>";
+		};
+		A369007ADBA2BC8307614692232A0CF8 /* Pods-SWC */ = {
+			isa = PBXGroup;
+			children = (
+				153FC0CB707D4A0AE7BF60BF22D539A4 /* Info.plist */,
+				BAB8F0E896C51ACA88214FC3E2EDF2CE /* Pods-SWC.modulemap */,
+				8F7A182F8B59DC1891ADFC7290EDF6B5 /* Pods-SWC-acknowledgements.markdown */,
+				F8518F8B411141E55C27C86F553BBBA0 /* Pods-SWC-acknowledgements.plist */,
+				E9C82FC5A738CE75400516B3DF2C4495 /* Pods-SWC-dummy.m */,
+				B72B563D92E538B1781D4A1E3E38757B /* Pods-SWC-frameworks.sh */,
+				F1819A5307DD971D031BDC24147DACF7 /* Pods-SWC-resources.sh */,
+				535E84C97744F5F791194C7981E4B248 /* Pods-SWC-umbrella.h */,
+				2CF900DEC2CBC1CB9EADE4728B50A77A /* Pods-SWC.debug.xcconfig */,
+				E1542D306A02D50549CACCDB8C694F4D /* Pods-SWC.release.xcconfig */,
+			);
+			name = "Pods-SWC";
+			path = "Target Support Files/Pods-SWC";
+			sourceTree = "<group>";
+		};
+		A71FEA05C85C54C86C741FC20D5CA8E8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A369007ADBA2BC8307614692232A0CF8 /* Pods-SWC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C15A52F931915F6EDD18909AEDC2526F /* DatePickerDialog */ = {
+			isa = PBXGroup;
+			children = (
+				FBBFAC454B6784F01BB973AA013812C0 /* DatePickerDialog.swift */,
+				FB480077BE70459E60EF6F3BC424E753 /* Support Files */,
+			);
+			name = DatePickerDialog;
+			path = DatePickerDialog;
+			sourceTree = "<group>";
+		};
+		D0B275198C8025EFADFFD0F138292E8A /* BSImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				69A609784F05CB1F4C125460D6D622B6 /* AlbumCell.swift */,
+				D16A43815002464B94D255CEF1A2E55B /* AlbumsViewController.swift */,
+				0E420F8603221B4AAC91292B0BEF8E74 /* AlbumTableViewDataSource.swift */,
+				6A905380DAAC561B1068B03E773BB566 /* AlbumTitleView.swift */,
+				222868590C49D3071E9F4D4764135FBE /* BSImagePickerSettings.swift */,
+				638F7A31089E327F132E9AA8CE9AFE0C /* BSImagePickerViewController.swift */,
+				8F43D747DD1230E405B4B0B2448A1B78 /* CameraCell.swift */,
+				BCD494EA085BA76A5477F6A63EDB6C5A /* CameraCollectionViewDataSource.swift */,
+				3307F46320D4CE1CA00D3AA557685503 /* ComposedCollectionViewDataSource.swift */,
+				FB0190C32E942A0D97F6A3B04B901CB4 /* NSIndexSet+NSIndexPath.swift */,
+				ECF67237A9538960F8E1DA3E1547D30D /* PhotoCell.swift */,
+				5EECAB7F16AF3695FF33A96377514F02 /* PhotoCollectionViewDataSource.swift */,
+				80F6D4E4A1E44FE63B14278627997A68 /* PhotosViewController.swift */,
+				9A155165177F1D2ED85F0A2D444ED14D /* PreviewViewController.swift */,
+				BA15A64F0D333F456F6EE575FA02730C /* SelectionView.swift */,
+				8C6848625CF990171D33D0071129DB8B /* Settings.swift */,
+				8428FD3C6A11D28BCC79DA9C4F24DAC3 /* UIButton+NoAnimation.swift */,
+				3D767212D4AACDA1527EE5F981449280 /* UIViewController+BSImagePicker.swift */,
+				028CBC951D5F6B6886E78BF81617EF85 /* ZoomAnimator.swift */,
+				34882F8482D521A7452E85F207BDA3F0 /* Resources */,
+				6BBCDD4F8290BAEED9A79E1A2123E72C /* Support Files */,
+			);
+			name = BSImagePicker;
+			path = BSImagePicker;
+			sourceTree = "<group>";
+		};
+		D649D01533D03F7A29E4EB901BBFF2F6 /* DTCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				B1B16FD06FB176BAD15C082C6FFC7A1A /* ControlsView.swift */,
+				20CEAD9A9FB2C2FEB7FFFE08B2D9C625 /* DateExtension.swift */,
+				503FD55067DA320EC930BD2BE0C30572 /* DaysView.swift */,
+				4E43C18BD9E9CA74EEDCDD7CDF4375D0 /* DTCalendar.h */,
+				04B9C2E45F6039CED2B8CE782364580D /* DTCalendar.swift */,
+				7B215F71E2DAB2DCB272F74CD348E0F2 /* WeekdaysView.swift */,
+				270707DB21ED1C44523C18D2257FA19A /* Resources */,
+				4F70CD032D7BCC1DEC7CBD85E4F73032 /* Support Files */,
+			);
+			name = DTCalendar;
+			path = DTCalendar;
+			sourceTree = "<group>";
+		};
+		E44F0D753A764F40F68F4D662DD4FACD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5BF0DBB49A936EC22B56F9819EADFB1D /* CoreGraphics.framework */,
+				2EC27617854A5F37C259214C73C8A2B1 /* Foundation.framework */,
+				FB469AFD7835CB932CFD8C2CF596EF1F /* Photos.framework */,
+				7A975C1834C0291266F8A345F0DAE86A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FB480077BE70459E60EF6F3BC424E753 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5878B420F60CEECD2B786BBD061FFC8E /* DatePickerDialog.modulemap */,
+				F61E466D8793CA6AD6A41D5AA45A9E3F /* DatePickerDialog.xcconfig */,
+				4187327D618A0E9E1A2E57E1082AED8E /* DatePickerDialog-dummy.m */,
+				A7CB77524C60728138716C4269BBA763 /* DatePickerDialog-prefix.pch */,
+				9A6AB848344454F8E8451DDABD404E3E /* DatePickerDialog-umbrella.h */,
+				1BB4BE8097C86BDF86AFF2830DE92596 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DatePickerDialog";
+			sourceTree = "<group>";
+		};
+		FEEAA242490577651746649DC712A866 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DDA3AD522045A9731AEC51C8515536E /* BSGridCollectionViewLayout.modulemap */,
+				CF5F4DD7CE8671129974B7EE90733EB5 /* BSGridCollectionViewLayout.xcconfig */,
+				3A2B649A25E396F83A2F5007C0F3B382 /* BSGridCollectionViewLayout-dummy.m */,
+				E4E9051FE25AE5EAA4A671ACCF23816D /* BSGridCollectionViewLayout-prefix.pch */,
+				533A99C97D82D77888A540FFBC7A6E61 /* BSGridCollectionViewLayout-umbrella.h */,
+				0A291297C8F7527E083D931C0B2CB506 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BSGridCollectionViewLayout";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04076857CE906315782B37B5EA1ED9A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EE6FBC9431B4B1B127726F2FBDE118 /* AutoResizeTextView.h in Headers */,
+				58CD7DC550022AA5A7EF920FB31B3653 /* MaterialControls-umbrella.h in Headers */,
+				9C8B6392B340386A6A5EA9DD72C611F3 /* MaterialControls.h in Headers */,
+				49E6AFCD3B0C82B783BA19B6B0FE1FB8 /* MDBubbleLabel.h in Headers */,
+				6A0126FCC4FC77B53766E2C6528D77B4 /* MDButton.h in Headers */,
+				E07706055CC9C396BF79E76EDC618F12 /* MDCalendar.h in Headers */,
+				96FDA1E54E4EE7B84297EC94A018148F /* MDCalendarCell.h in Headers */,
+				ED09DC482EBD5285E433C9866DF0B367 /* MDCalendarDateHeader.h in Headers */,
+				E62775DABC5481BE79961043BB906BF6 /* MDCalendarHeader.h in Headers */,
+				D33D45536AB83387B766CA86F11B7DE8 /* MDCalendarYearSelector.h in Headers */,
+				2C4BF21BEBD90B3A1A212405FAB96F21 /* MDCalendarYearSelectorViewCell.h in Headers */,
+				34B8CC4E474A7965733206E3D8A0713F /* MDCircularProgressLayer.h in Headers */,
+				A158BE3D743BA5BB1DD13E1B99FE1D7D /* MDCollectionViewCell.h in Headers */,
+				E642091864B67D04FE0F1ADA67853A51 /* MDConstants.h in Headers */,
+				EB7E8763C74676783A4615CE9AF48DE4 /* MDDatePicker.h in Headers */,
+				6CA4F0EA8E0F90324991EA74E97052CE /* MDDatePickerDialog.h in Headers */,
+				0C20AAB422CC2202A08E2333EC8A3A70 /* MDDeviceHelper.h in Headers */,
+				3AB7204CFE6B47ADB6180BF26AC41FBD /* MDLinearProgressLayer.h in Headers */,
+				96FF611D90DB49596AE9CDBAB9027019 /* MDMathHelper.h in Headers */,
+				13F5A7A428C62CBBEAD7A6D96763FCF7 /* MDProgress.h in Headers */,
+				EF42BB15227FF146326741A74010B003 /* MDProgressLayer.h in Headers */,
+				3BF7D0B8980754182E4B7649E33E7738 /* MDRippleLayer.h in Headers */,
+				81342D8EDD8F14A36444FAABBCD969C2 /* MDSlider.h in Headers */,
+				40D0EB17A744B8926B606742012B25FF /* MDSliderIcon.h in Headers */,
+				DA6E750D98236F3623DCDCF2B1632CE8 /* MDSliderThumbView.h in Headers */,
+				08579DA8A94D70561C84AEFCB9054565 /* MDSliderTickMarksView.h in Headers */,
+				29C4954B793E4428DB1FB25D5D4AF500 /* MDSnackbar.h in Headers */,
+				43A9A605A57DF27B8E9EDA1320158117 /* MDSuggestPopupView.h in Headers */,
+				D0306603DBE11AD7A85617F025D05EE5 /* MDSuggestTableView.h in Headers */,
+				8A78DAFDC5C25A167A690E24026D16D1 /* MDSwitch.h in Headers */,
+				AC2965CE61F2E4E52BFC41CC716FFE12 /* MDTabBar.h in Headers */,
+				87D3F6D331DEA2A14FD7A83CCE0F547F /* MDTabBarViewController.h in Headers */,
+				723917B3AA6A1D94E127BD8F057C6DEB /* MDTableViewCell.h in Headers */,
+				1BD7EFC4D9CF43B9023A35AE7F1C7F38 /* MDTextField.h in Headers */,
+				15D641E1E3EB072CC3CFF9A74118685D /* MDTimePickerDialog.h in Headers */,
+				99E15F2295ED12283D3686E2EAB6D91B /* MDToast.h in Headers */,
+				C42820B86DC2EDFCB7456DE7151B2E24 /* MDTouchGestureRecognizer.h in Headers */,
+				2147605F2D807CF69D28D12FF25E070C /* NSCalendarHelper.h in Headers */,
+				3B2A4203AD459592CB0B60CA60DD0DC3 /* NSDate+MDExtension.h in Headers */,
+				ECE53E18D06CFBBC8FD3AFD0EC5CC9AB /* NSDateHelper.h in Headers */,
+				C69188F987AA2D27E4C9BED5B4E1358E /* UIColorHelper.h in Headers */,
+				6633E1A2F1F14225496F066E25A4C943 /* UIFontHelper.h in Headers */,
+				3CCA77B37EA796A99C5BAC145095236E /* UIView+MDExtension.h in Headers */,
+				45AF6879044A07DBA8F3E71A9ED62B26 /* UIViewHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09616BCDBFB444CE1E58B29B77B86EFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C1B0CF03D8C8A723E182F5022EF448 /* RIGImageGallery-umbrella.h in Headers */,
+				B601222C051BA29A109FE1EADE615A26 /* RIGImageGallery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1350ADAEEF98DA18F8E861DD8B0169AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF444DE585D64E4B755F2CB4EB1E0EF /* UIImageViewModeScaleAspect-umbrella.h in Headers */,
+				95D9E074B4BD7A0B3A3C3EA8BF30D8E9 /* UIImageViewModeScaleAspect.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2675140161515F2E9F99FEB0F11F1ED3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB056BB4AD65CB66380CBDD52CB0FD3 /* DatePickerDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47482761093F7753912CAFA6922155D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311F59636DD45853A3E197E5358DC6E5 /* DTCalendar-umbrella.h in Headers */,
+				E7F2E0FE65BA8F6F2C9F4202E7DB811D /* DTCalendar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619435A23AEEE43013A3AA6BAC406BBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A962759948D79650092DF3B2009255D /* BSImagePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ADD24709CEFCF714EB6BA14D165138F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A9777E1BF6A409727A953B24EB3BFD /* Pods-SWC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94049E91549140EC14DFD3301591020 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC561FB4F119D2F53DCAEF0D079C28F2 /* JModalController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC7DE9487BDF04C0097335A51099FDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A8F79B77CB20AD43FD33D8DF3E7A1B /* BSGridCollectionViewLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1462A800C6623ADC2221545332D41D29 /* BSImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A4DAD87B00A40EEB411F66EB969DB32 /* Build configuration list for PBXNativeTarget "BSImagePicker" */;
+			buildPhases = (
+				C706FD91FB0F32D5BD0A48F828884507 /* Sources */,
+				31B85701C8ECD83522FC6DECF782F040 /* Frameworks */,
+				42A57966C5A9F12A9CE46D718A3D2910 /* Resources */,
+				619435A23AEEE43013A3AA6BAC406BBF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05CED84125DCC4E969B712717304A77F /* PBXTargetDependency */,
+				D3EE0F2AEF2AE68E7DF0941A59EDEC37 /* PBXTargetDependency */,
+				F1027A11F4642A8CC807945351A6DA96 /* PBXTargetDependency */,
+			);
+			name = BSImagePicker;
+			productName = BSImagePicker;
+			productReference = 21FEBB4B4F4C7393B293148626C15AE7 /* BSImagePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		15ADBD1BCE86903F0EDBD3382A6770F7 /* RIGImageGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B517697FF664228BB25DB2483DA8A8E /* Build configuration list for PBXNativeTarget "RIGImageGallery" */;
+			buildPhases = (
+				B18DD3621B0760B0A6158783D5862288 /* Sources */,
+				3F59FC7EB2F3917A859AE1EDE2ABAB71 /* Frameworks */,
+				09616BCDBFB444CE1E58B29B77B86EFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RIGImageGallery;
+			productName = RIGImageGallery;
+			productReference = 48BC69A1E179E31906B0DBB6EC6F2195 /* RIGImageGallery.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		184A1650DC0B648BD756068E60BF2C59 /* DatePickerDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5CF02785F10F0CDA34F90832C66CFA /* Build configuration list for PBXNativeTarget "DatePickerDialog" */;
+			buildPhases = (
+				1D432F1231D861C3C85333A043376EAE /* Sources */,
+				31AE3E263B8032AC2966F95252E5AADC /* Frameworks */,
+				2675140161515F2E9F99FEB0F11F1ED3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatePickerDialog;
+			productName = DatePickerDialog;
+			productReference = 54FFD2C0532C0059C75F39E23B4B6522 /* DatePickerDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A2D0D3615BE031DB2E3931A81E07930 /* JModalController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71B26C5F1F8AA88F8DBDCB5C87C001D /* Build configuration list for PBXNativeTarget "JModalController" */;
+			buildPhases = (
+				D8839B0B0B1C843BC6FF803F4E944CA5 /* Sources */,
+				15FA5E58B75C657D2A8F7460A87A6BD1 /* Frameworks */,
+				A94049E91549140EC14DFD3301591020 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JModalController;
+			productName = JModalController;
+			productReference = D2C5DA9B21E51DA0FF697726E0167568 /* JModalController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32D3FA9D3F257B941DF0EDF0A92B37F7 /* BSImagePicker-BSImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362CDDBE76361554C8714268D63575AA /* Build configuration list for PBXNativeTarget "BSImagePicker-BSImagePicker" */;
+			buildPhases = (
+				EE475542E85CC5FDD77966AFEE25102F /* Sources */,
+				FA667E91BAC0DD2E1E113C075C4D17EC /* Frameworks */,
+				E2EE18311F6459C4376C951D37C3CF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BSImagePicker-BSImagePicker";
+			productName = "BSImagePicker-BSImagePicker";
+			productReference = D00B0A92C4099FEC357989620E9B96FA /* BSImagePicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3358FD278239CD04C72D0B18351BD8AE /* DTCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CE8ACD278161B96B4300ACC02A6167 /* Build configuration list for PBXNativeTarget "DTCalendar" */;
+			buildPhases = (
+				834C367736519B96C93E8D56A1D7553F /* Sources */,
+				D84CB12748D5DA60EC95A8B0247389A6 /* Frameworks */,
+				47482761093F7753912CAFA6922155D7 /* Headers */,
+				B5D1B92164FAFFB0D2BAFCCA8F5284B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTCalendar;
+			productName = DTCalendar;
+			productReference = 7A7A81DAF896C15D1B5974D3AD5C74FF /* DTCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3A43395A1696E283CA24A4012C4E0CC1 /* MaterialControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF2C91057172AE74AEB11413A246E82 /* Build configuration list for PBXNativeTarget "MaterialControls" */;
+			buildPhases = (
+				7CD76BBCFF1ED49851B087C3A48FEF65 /* Sources */,
+				4EDF0144C1BE2952713B4DE18E5B202E /* Frameworks */,
+				04076857CE906315782B37B5EA1ED9A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaterialControls;
+			productName = MaterialControls;
+			productReference = 98EB427679E0DD6FC376FF62F7E9D6DC /* MaterialControls.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6930D5D0C3440426432777093903702D /* BSGridCollectionViewLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14389705DF1DDADD75464255690FF1BA /* Build configuration list for PBXNativeTarget "BSGridCollectionViewLayout" */;
+			buildPhases = (
+				33EBF2E3B9D0B6FC62E2E1EB02061745 /* Sources */,
+				FD0C2B7505D61447D90C63668464C7E8 /* Frameworks */,
+				CFC7DE9487BDF04C0097335A51099FDA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSGridCollectionViewLayout;
+			productName = BSGridCollectionViewLayout;
+			productReference = 8E712018C7B3B0A4FDD69ACC78F117CA /* BSGridCollectionViewLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		699E789DB4104C01604BD6DC24F58DDA /* UIImageViewModeScaleAspect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A213B08E1D9CC7FC9AA8B0EFAA98739F /* Build configuration list for PBXNativeTarget "UIImageViewModeScaleAspect" */;
+			buildPhases = (
+				D945BC727133C87DCAEEF6D134D5048B /* Sources */,
+				78F0FBDAC57D179F6EFFB1AF53947706 /* Frameworks */,
+				1350ADAEEF98DA18F8E861DD8B0169AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIImageViewModeScaleAspect;
+			productName = UIImageViewModeScaleAspect;
+			productReference = C2E03AFC8BBAC154283AADA79FE5933F /* UIImageViewModeScaleAspect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD24EF3877D36B965F3EEA33D5E8B315 /* Pods-SWC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CD50BA5CAF490A0BA9F1446912D4067 /* Build configuration list for PBXNativeTarget "Pods-SWC" */;
+			buildPhases = (
+				9D1252A9A9048D659F20099395377EE8 /* Sources */,
+				51795B959230EC862234AED4082E704C /* Frameworks */,
+				8ADD24709CEFCF714EB6BA14D165138F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF72D5D3889ABF805C319B0532C37F6 /* PBXTargetDependency */,
+				C545AD514B0950212A18C7698B0EEB82 /* PBXTargetDependency */,
+				5259BE12C11B42AA2723C72B5A8CB93D /* PBXTargetDependency */,
+				7198DD58AEC937C78FC998F3E3FFD99B /* PBXTargetDependency */,
+				2A3B75D69C68088B6656AA0B94E75005 /* PBXTargetDependency */,
+				EE77C55F403988E312683904FA2F3D59 /* PBXTargetDependency */,
+				9BBC8BE20C42D19448879ED21EFBE9C1 /* PBXTargetDependency */,
+				3CC76A3629299A34F5D3B5DD52B7E66E /* PBXTargetDependency */,
+			);
+			name = "Pods-SWC";
+			productName = "Pods-SWC";
+			productReference = 1AD95995646DAF077C5FFFD633434E72 /* Pods_SWC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 69491DA85F104D7CDB505243F3A7EA73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6930D5D0C3440426432777093903702D /* BSGridCollectionViewLayout */,
+				1462A800C6623ADC2221545332D41D29 /* BSImagePicker */,
+				32D3FA9D3F257B941DF0EDF0A92B37F7 /* BSImagePicker-BSImagePicker */,
+				184A1650DC0B648BD756068E60BF2C59 /* DatePickerDialog */,
+				3358FD278239CD04C72D0B18351BD8AE /* DTCalendar */,
+				2A2D0D3615BE031DB2E3931A81E07930 /* JModalController */,
+				3A43395A1696E283CA24A4012C4E0CC1 /* MaterialControls */,
+				BD24EF3877D36B965F3EEA33D5E8B315 /* Pods-SWC */,
+				15ADBD1BCE86903F0EDBD3382A6770F7 /* RIGImageGallery */,
+				699E789DB4104C01604BD6DC24F58DDA /* UIImageViewModeScaleAspect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42A57966C5A9F12A9CE46D718A3D2910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEFA3AD45C90E355EE639AF7BA52488 /* BSImagePicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D1B92164FAFFB0D2BAFCCA8F5284B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EFD571726F2ACD75E26B959BE93611 /* left-arrow.png in Resources */,
+				3164437F23050F862FC7D920B31E6FFB /* left-arrow@2x.png in Resources */,
+				26C2716066654BCB8474E6F82997D5D7 /* left-arrow@3x.png in Resources */,
+				C0E69C4DF345D2B94E56F0E248774F19 /* right-arrow.png in Resources */,
+				2932661CC22FF8371D40DC118C1119CC /* right-arrow@2x.png in Resources */,
+				D27DC9348BF05F76F5505DADA9C14ABF /* right-arrow@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EE18311F6459C4376C951D37C3CF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D98E24C0911224CA30EE95E0BF0D9D6 /* add_photo.png in Resources */,
+				0DA690C67693C54A7EE250DFA5725A45 /* add_photo@2x.png in Resources */,
+				71F9356908D7034B6B0DB7794569CB8E /* add_photo@3x.png in Resources */,
+				CE9FC3567D34EFD442D54DCF91DD3523 /* Albums.storyboard in Resources */,
+				82F67AB1417B4CEBF6D3F2C3A5733FCC /* AlbumTitleView.xib in Resources */,
+				C5F4CCC20D3C85923F7FB740DEE38001 /* arrow_down@1x.png in Resources */,
+				F5D7D58C0D2A42FF3F30E3FC98E2F545 /* arrow_down@2x.png in Resources */,
+				02871839F6E8C933E88346D29DF64BB8 /* arrow_down@3x.png in Resources */,
+				DC0F41F8B952AE2491C2B5F38ACE6E1C /* CameraCell.xib in Resources */,
+				A0510A2CD58838D4DC9372E549C5CF4E /* PhotoCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D432F1231D861C3C85333A043376EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE45DAEE660ADE5C146EE7CF7259F35A /* DatePickerDialog-dummy.m in Sources */,
+				03A95EB83E0A8E10F7E0B4DB551D5200 /* DatePickerDialog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EBF2E3B9D0B6FC62E2E1EB02061745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB9EEF4D17B1394B91905B94BBE4F99 /* BSGridCollectionViewLayout-dummy.m in Sources */,
+				907D779765F9E18C2D4B924B80D9501A /* GridCollectionViewLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD76BBCFF1ED49851B087C3A48FEF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E12441E8F779279B366666DA6370321 /* AutoResizeTextView.m in Sources */,
+				5E10EF6D6F4798287E8251B65200F0D0 /* MaterialControls-dummy.m in Sources */,
+				EE2AE2DA6DADBBBD562D1D080FB30FE1 /* MaterialControls.m in Sources */,
+				25C9DA3732DCDC1F06F6E062072F0A6E /* MDBubbleLabel.m in Sources */,
+				5553DE0CA2383E39DC85F88702CA64FC /* MDButton.m in Sources */,
+				656C3E63F49D658837DEC43B4B1C2C17 /* MDCalendar.m in Sources */,
+				8BF2708B6F6FE8CDC0EFCDBAF84656EA /* MDCalendarCell.m in Sources */,
+				03F76598DE06B8D6C1B290A2A98A5363 /* MDCalendarDateHeader.m in Sources */,
+				86049A486E4925CB47B14041E218F75F /* MDCalendarHeader.m in Sources */,
+				065A153C62BA04F94FDED2EA4032D5BF /* MDCalendarYearSelector.m in Sources */,
+				2E5B73090C61A67BA8BB22EC21139033 /* MDCalendarYearSelectorViewCell.m in Sources */,
+				E9303D2450ED3734C7AACFCE7B7BC3D9 /* MDCircularProgressLayer.m in Sources */,
+				79EB136531FCFB42D544EBE28878B78D /* MDCollectionViewCell.m in Sources */,
+				4ED91B0FE74095B19377CFCD476B163C /* MDDatePicker.m in Sources */,
+				45F7B10A88E52F141635871D5A42CFD4 /* MDDatePickerDialog.m in Sources */,
+				98DA5B1566A312A2681EF68F4C9FD68C /* MDDeviceHelper.m in Sources */,
+				B1C5FF010AB289E33D3F74D3200EA61A /* MDLinearProgressLayer.m in Sources */,
+				9824A5AE7054BB4C7254CF7DEDB23F08 /* MDMathHelper.m in Sources */,
+				4F8F71C35AB41EA960F43BA8C542FD48 /* MDProgress.m in Sources */,
+				D9153ABBDA504356D83AF4CDD5BD7821 /* MDProgressLayer.m in Sources */,
+				CBD79C174680EC70E7DAA8DA65EFD41B /* MDRippleLayer.m in Sources */,
+				6058C47E234C1B9BB207347F578E4559 /* MDSlider.m in Sources */,
+				E5A02CF937E3DEB91E0C16D7F983D1D8 /* MDSliderIcon.m in Sources */,
+				8EFF4D1B8041830CAC353B87E28A7644 /* MDSliderThumbView.m in Sources */,
+				D40C7B064B88FB9FE67E950089DBEE15 /* MDSliderTickMarksView.m in Sources */,
+				0152B6F81310A3A77F5487CDF419EA61 /* MDSnackbar.m in Sources */,
+				10C89D779068857ECB8733DB74368EA4 /* MDSuggestPopupView.m in Sources */,
+				61A7C859D869D71CBCA47E2392D55C77 /* MDSuggestTableView.m in Sources */,
+				A2740BEDD717C750A74874E4097373A4 /* MDSwitch.m in Sources */,
+				986BD74F2651AB90996B5A8312322D82 /* MDTabBar.m in Sources */,
+				4E52553DBA400B7223326EE1FF0B33DA /* MDTabBarViewController.m in Sources */,
+				343F39C6B0B0A37F6363B4CE315A655E /* MDTableViewCell.m in Sources */,
+				A1072ED85CF7DC6B3A3ACA1178C331E1 /* MDTextField.m in Sources */,
+				2D677597604E11C201E1EC5BF65B5CF9 /* MDTimePickerDialog.m in Sources */,
+				DD301E4CAE89F265CFA7DAE01308695C /* MDToast.m in Sources */,
+				4B3290276C4F6FB218CFFD6C621AB647 /* MDTouchGestureRecognizer.m in Sources */,
+				867BFFCC2078B7E7F06400C9A34FF6B2 /* NSCalendarHelper.m in Sources */,
+				170E069AD18588E3C764785AE000DF9F /* NSDate+MDExtension.m in Sources */,
+				C12F43949D989AD151DFAE3929CA461C /* NSDateHelper.m in Sources */,
+				6F4A7A0ACBF412CD886AAE133C24830E /* UIColorHelper.m in Sources */,
+				1DADD8AE5841ACA2668D91809BB866B4 /* UIFontHelper.m in Sources */,
+				DC30493854675B356F3F40CF7A351B92 /* UIView+MDExtension.m in Sources */,
+				FFC4ACA4C97304FA459BB21B17B52E86 /* UIViewHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834C367736519B96C93E8D56A1D7553F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EB404E94569A7D1233E8827480F05A /* ControlsView.swift in Sources */,
+				BD583414948ECCEDB5939C3E0AB16C31 /* DateExtension.swift in Sources */,
+				CDEFC28A9D19ECF1FF9EE3DF7677C2A1 /* DaysView.swift in Sources */,
+				F5C1E73F08EF3DF5573CD0927C8100D0 /* DTCalendar-dummy.m in Sources */,
+				F781C4194A53B2D2B17276A6F058F3BF /* DTCalendar.swift in Sources */,
+				FC3B0F31D1E99E79575F88A7A11BB4BB /* WeekdaysView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1252A9A9048D659F20099395377EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B07BF9B787DE529444DEEE273513417 /* Pods-SWC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18DD3621B0760B0A6158783D5862288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59454BA76E646D86D2082B1D17312AF4 /* Info.plist in Sources */,
+				643DE007071174E49CC4C6F3F7BE12F0 /* RIGAutoCenteringScrollView.swift in Sources */,
+				708403E309FF5CA6CB40BB2EB8A8D69F /* RIGImageGallery-dummy.m in Sources */,
+				1817B640D036C9CEF05F6EB2BC9B5695 /* RIGImageGalleryItem.swift in Sources */,
+				A502D33742F7CD7B7998B60756EDB9DB /* RIGImageGalleryViewController.swift in Sources */,
+				B9DF9BE57FE025EFC5C7321739BFC5F8 /* RIGSingleImageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C706FD91FB0F32D5BD0A48F828884507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD578A66BDE57187324FB999DBAA994 /* AlbumCell.swift in Sources */,
+				775370CE338AFE235C8F0A888DFAE0C0 /* AlbumsViewController.swift in Sources */,
+				3B0A1AB9620BCFF668037F26DC68014A /* AlbumTableViewDataSource.swift in Sources */,
+				A7165D89EB94E25DD4D9DFC19551ADC6 /* AlbumTitleView.swift in Sources */,
+				0A1282780E0D07ABCD6FA87A100C8B36 /* BSImagePicker-dummy.m in Sources */,
+				6EC1B07BAD202E3B04D672EA392CD6C9 /* BSImagePickerSettings.swift in Sources */,
+				F8511396D12AB8F4CC2D58465EFA60EC /* BSImagePickerViewController.swift in Sources */,
+				4975341746390700C69BBF91900549D0 /* CameraCell.swift in Sources */,
+				D3BD6D23D177130221815340C04A8A55 /* CameraCollectionViewDataSource.swift in Sources */,
+				3AAFC1736E91CA42A509F3367D843F24 /* ComposedCollectionViewDataSource.swift in Sources */,
+				E74A3A1E348564001FCF3DF84EC5275F /* NSIndexSet+NSIndexPath.swift in Sources */,
+				2CC2157ADAE9E3BDFEE580B1CDFBDB0E /* PhotoCell.swift in Sources */,
+				2A1660DDC6EABDA1C14FE6A1431B92D9 /* PhotoCollectionViewDataSource.swift in Sources */,
+				4FA6EE68A53FCF5FA7FF142754B3983B /* PhotosViewController.swift in Sources */,
+				9BB21DF77DD3F92AB4969629091529B1 /* PreviewViewController.swift in Sources */,
+				EA64E5A0DF1C771270636E7AD666C9CC /* SelectionView.swift in Sources */,
+				A95154632C3230C8B210F3C4382EDC2F /* Settings.swift in Sources */,
+				6784E61CF2EA33B9634E673CB2A24CA2 /* UIButton+NoAnimation.swift in Sources */,
+				8C1292269171ADD8C827B205823D0DD3 /* UIViewController+BSImagePicker.swift in Sources */,
+				71F7C15D4D16511264A2758F1FD6B8D4 /* ZoomAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8839B0B0B1C843BC6FF803F4E944CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCF05B0CA96B6E3017602F007941662 /* JModalController-dummy.m in Sources */,
+				F5E9BCECC243FD607EE32CA19EBDB8AE /* JModalController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D945BC727133C87DCAEEF6D134D5048B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C868F1049153CB51A9CAF4050FD8D5 /* UIImageViewModeScaleAspect-dummy.m in Sources */,
+				490B1D27B72D90E0DFD18AA1589588C4 /* UIImageViewModeScaleAspect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE475542E85CC5FDD77966AFEE25102F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05CED84125DCC4E969B712717304A77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BSGridCollectionViewLayout;
+			target = 6930D5D0C3440426432777093903702D /* BSGridCollectionViewLayout */;
+			targetProxy = 282D311777F5127E556A589AF38D4C89 /* PBXContainerItemProxy */;
+		};
+		2A3B75D69C68088B6656AA0B94E75005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JModalController;
+			target = 2A2D0D3615BE031DB2E3931A81E07930 /* JModalController */;
+			targetProxy = 7AD974E68CAD262961E350C219E4B921 /* PBXContainerItemProxy */;
+		};
+		3CC76A3629299A34F5D3B5DD52B7E66E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIImageViewModeScaleAspect;
+			target = 699E789DB4104C01604BD6DC24F58DDA /* UIImageViewModeScaleAspect */;
+			targetProxy = 8A156054738B265D70D7386BFEB29529 /* PBXContainerItemProxy */;
+		};
+		5259BE12C11B42AA2723C72B5A8CB93D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTCalendar;
+			target = 3358FD278239CD04C72D0B18351BD8AE /* DTCalendar */;
+			targetProxy = 18982E6D109A4D4A6BED738F4C330AD2 /* PBXContainerItemProxy */;
+		};
+		7198DD58AEC937C78FC998F3E3FFD99B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DatePickerDialog;
+			target = 184A1650DC0B648BD756068E60BF2C59 /* DatePickerDialog */;
+			targetProxy = DABAD5F28E6ABAB529F82E00EB3C473C /* PBXContainerItemProxy */;
+		};
+		8CF72D5D3889ABF805C319B0532C37F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BSGridCollectionViewLayout;
+			target = 6930D5D0C3440426432777093903702D /* BSGridCollectionViewLayout */;
+			targetProxy = C7355E585F2020864A239CBEEA3624A2 /* PBXContainerItemProxy */;
+		};
+		9BBC8BE20C42D19448879ED21EFBE9C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RIGImageGallery;
+			target = 15ADBD1BCE86903F0EDBD3382A6770F7 /* RIGImageGallery */;
+			targetProxy = 232DFD077F57209155E49B20A6B7377E /* PBXContainerItemProxy */;
+		};
+		C545AD514B0950212A18C7698B0EEB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BSImagePicker;
+			target = 1462A800C6623ADC2221545332D41D29 /* BSImagePicker */;
+			targetProxy = B441EF7D0CB3722D9735493088A177B7 /* PBXContainerItemProxy */;
+		};
+		D3EE0F2AEF2AE68E7DF0941A59EDEC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BSImagePicker-BSImagePicker";
+			target = 32D3FA9D3F257B941DF0EDF0A92B37F7 /* BSImagePicker-BSImagePicker */;
+			targetProxy = 6EDFE081004BFFA266476928C6E4AE54 /* PBXContainerItemProxy */;
+		};
+		EE77C55F403988E312683904FA2F3D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialControls;
+			target = 3A43395A1696E283CA24A4012C4E0CC1 /* MaterialControls */;
+			targetProxy = A0B4A4E503C974687294D3440626A73D /* PBXContainerItemProxy */;
+		};
+		F1027A11F4642A8CC807945351A6DA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIImageViewModeScaleAspect;
+			target = 699E789DB4104C01604BD6DC24F58DDA /* UIImageViewModeScaleAspect */;
+			targetProxy = 351AE42058978A4A5030C14CB87A51EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CA76AEE023E82D1F292A21372609DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB559DF4F2E3F8A8FA0DD1EBFEE12B13 /* BSImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSImagePicker/BSImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSImagePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSImagePicker/BSImagePicker.modulemap";
+				PRODUCT_NAME = BSImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23EDF667B46962C4990AE0FF9D68B1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492D67CFFF5A3FEEED513B79751B61CF /* MaterialControls.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialControls/MaterialControls-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialControls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaterialControls/MaterialControls.modulemap";
+				PRODUCT_NAME = MaterialControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2AD1BD5633A50E2207BD83B5BFE61999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88FB094A3285D140156889C29B7155DE /* UIImageViewModeScaleAspect.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIImageViewModeScaleAspect/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect.modulemap";
+				PRODUCT_NAME = UIImageViewModeScaleAspect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B9505229145FE74B7A771818AD775F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB559DF4F2E3F8A8FA0DD1EBFEE12B13 /* BSImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSImagePicker/BSImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSImagePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSImagePicker/BSImagePicker.modulemap";
+				PRODUCT_NAME = BSImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E358D2E55B908F444ED5566E9D7726E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB559DF4F2E3F8A8FA0DD1EBFEE12B13 /* BSImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BSImagePicker";
+				INFOPLIST_FILE = "Target Support Files/BSImagePicker/ResourceBundle-BSImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BSImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		387888D2F0B9D2971425B7D95F97B78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61E466D8793CA6AD6A41D5AA45A9E3F /* DatePickerDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DatePickerDialog/DatePickerDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DatePickerDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DatePickerDialog/DatePickerDialog.modulemap";
+				PRODUCT_NAME = DatePickerDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A89EDD81CF26B6824D4499915F4EBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5F4DD7CE8671129974B7EE90733EB5 /* BSGridCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSGridCollectionViewLayout/BSGridCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSGridCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSGridCollectionViewLayout/BSGridCollectionViewLayout.modulemap";
+				PRODUCT_NAME = BSGridCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F9EE1CB06B0FCAE7883B4AD742DAFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E6EF89268F75ACD5B29B1DBCB98FEF /* DTCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTCalendar/DTCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTCalendar/DTCalendar.modulemap";
+				PRODUCT_NAME = DTCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43F5D45994225152BACDC6496EFB750D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E6EF89268F75ACD5B29B1DBCB98FEF /* DTCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTCalendar/DTCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTCalendar/DTCalendar.modulemap";
+				PRODUCT_NAME = DTCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CB2F09830EBFD8E4B4AC1898D4212D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5F4DD7CE8671129974B7EE90733EB5 /* BSGridCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSGridCollectionViewLayout/BSGridCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSGridCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSGridCollectionViewLayout/BSGridCollectionViewLayout.modulemap";
+				PRODUCT_NAME = BSGridCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60FC4266BDE63B3C000A811CAEA440F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF900DEC2CBC1CB9EADE4728B50A77A /* Pods-SWC.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SWC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SWC/Pods-SWC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SWC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		621AB785940626574F07364CB14760E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		645C0EF08B22551709F8B88EB985FBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68FE4B6945D3CC0DCB1745060886282A /* JModalController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JModalController/JModalController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JModalController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JModalController/JModalController.modulemap";
+				PRODUCT_NAME = JModalController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97F432587A7A5F953F1DA06FEC8FEA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61E466D8793CA6AD6A41D5AA45A9E3F /* DatePickerDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DatePickerDialog/DatePickerDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DatePickerDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DatePickerDialog/DatePickerDialog.modulemap";
+				PRODUCT_NAME = DatePickerDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BBAE06A673823D731D9D3B76BFFE0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492D67CFFF5A3FEEED513B79751B61CF /* MaterialControls.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialControls/MaterialControls-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialControls/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaterialControls/MaterialControls.modulemap";
+				PRODUCT_NAME = MaterialControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57C09D404C607DDE283C5C44183B2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B5C27060413773713BFC374C6E885A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB559DF4F2E3F8A8FA0DD1EBFEE12B13 /* BSImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BSImagePicker";
+				INFOPLIST_FILE = "Target Support Files/BSImagePicker/ResourceBundle-BSImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BSImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B881927539953EED10811BAFE540B9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88FB094A3285D140156889C29B7155DE /* UIImageViewModeScaleAspect.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIImageViewModeScaleAspect/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect.modulemap";
+				PRODUCT_NAME = UIImageViewModeScaleAspect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC72859CEC52B0D2744E37009EB15863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 377E1971891FD2862EB6632B7C4F04F5 /* RIGImageGallery.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RIGImageGallery/RIGImageGallery-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RIGImageGallery/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RIGImageGallery/RIGImageGallery.modulemap";
+				PRODUCT_NAME = RIGImageGallery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1EA61396C0A40189F07F1DAFA96E639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68FE4B6945D3CC0DCB1745060886282A /* JModalController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JModalController/JModalController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JModalController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JModalController/JModalController.modulemap";
+				PRODUCT_NAME = JModalController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB9BC7C2D98C1BF1CE8448888F933ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 377E1971891FD2862EB6632B7C4F04F5 /* RIGImageGallery.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RIGImageGallery/RIGImageGallery-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RIGImageGallery/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RIGImageGallery/RIGImageGallery.modulemap";
+				PRODUCT_NAME = RIGImageGallery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5F40BF6E11B67A4E7D8DF95792DFBB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1542D306A02D50549CACCDB8C694F4D /* Pods-SWC.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SWC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SWC/Pods-SWC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SWC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A4DAD87B00A40EEB411F66EB969DB32 /* Build configuration list for PBXNativeTarget "BSImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9505229145FE74B7A771818AD775F3 /* Debug */,
+				0CA76AEE023E82D1F292A21372609DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14389705DF1DDADD75464255690FF1BA /* Build configuration list for PBXNativeTarget "BSGridCollectionViewLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A89EDD81CF26B6824D4499915F4EBB0 /* Debug */,
+				44CB2F09830EBFD8E4B4AC1898D4212D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF2C91057172AE74AEB11413A246E82 /* Build configuration list for PBXNativeTarget "MaterialControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23EDF667B46962C4990AE0FF9D68B1AD /* Debug */,
+				9BBAE06A673823D731D9D3B76BFFE0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57C09D404C607DDE283C5C44183B2A1 /* Debug */,
+				621AB785940626574F07364CB14760E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		362CDDBE76361554C8714268D63575AA /* Build configuration list for PBXNativeTarget "BSImagePicker-BSImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E358D2E55B908F444ED5566E9D7726E /* Debug */,
+				B5C27060413773713BFC374C6E885A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B517697FF664228BB25DB2483DA8A8E /* Build configuration list for PBXNativeTarget "RIGImageGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC72859CEC52B0D2744E37009EB15863 /* Debug */,
+				EB9BC7C2D98C1BF1CE8448888F933ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CD50BA5CAF490A0BA9F1446912D4067 /* Build configuration list for PBXNativeTarget "Pods-SWC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FC4266BDE63B3C000A811CAEA440F0 /* Debug */,
+				F5F40BF6E11B67A4E7D8DF95792DFBB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A213B08E1D9CC7FC9AA8B0EFAA98739F /* Build configuration list for PBXNativeTarget "UIImageViewModeScaleAspect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B881927539953EED10811BAFE540B9AF /* Debug */,
+				2AD1BD5633A50E2207BD83B5BFE61999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CE8ACD278161B96B4300ACC02A6167 /* Build configuration list for PBXNativeTarget "DTCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F5D45994225152BACDC6496EFB750D /* Debug */,
+				3F9EE1CB06B0FCAE7883B4AD742DAFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71B26C5F1F8AA88F8DBDCB5C87C001D /* Build configuration list for PBXNativeTarget "JModalController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645C0EF08B22551709F8B88EB985FBD5 /* Debug */,
+				C1EA61396C0A40189F07F1DAFA96E639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5CF02785F10F0CDA34F90832C66CFA /* Build configuration list for PBXNativeTarget "DatePickerDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F432587A7A5F953F1DA06FEC8FEA20 /* Debug */,
+				387888D2F0B9D2971425B7D95F97B78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

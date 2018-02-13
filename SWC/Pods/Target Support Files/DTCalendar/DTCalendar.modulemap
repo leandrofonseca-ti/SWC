@@ -1,0 +1,6 @@
+framework module DTCalendar {
+  umbrella header "DTCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

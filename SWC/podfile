@@ -1,0 +1,12 @@
+
+target 'SWC' do
+
+use_frameworks!
+
+pod 'BSImagePicker'
+pod 'RIGImageGallery'
+pod 'MaterialControls' , '~> 1.2.2'
+pod 'JModalController'
+pod 'DatePickerDialog'
+pod 'DTCalendar'
+end
